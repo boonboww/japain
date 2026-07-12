@@ -4,6 +4,7 @@ import { lesson_11_15 } from './minna/lesson_11_15';
 import { lesson_16_20 } from './minna/lesson_16_20';
 import { lesson_21_25 } from './minna/lesson_21_25';
 import { itVocab } from './itVocab';
+import { dailyConversations, businessConversations } from './real_life';
 
 // Convert itVocab array to a lesson format
 const itLesson = {
@@ -21,6 +22,8 @@ const itLesson = {
 };
 
 export const lessons = [
+  dailyConversations,
+  businessConversations,
   ...lesson_1_5,
   ...lesson_6_10,
   ...lesson_11_15,

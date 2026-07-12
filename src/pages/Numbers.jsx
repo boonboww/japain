@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { numbersAndDates } from '../data/numbers';
-import { Clock } from 'lucide-react';
 
 export default function Numbers() {
   const [activeTab, setActiveTab] = useState('numbers');
@@ -16,13 +15,13 @@ export default function Numbers() {
   return (
     <div className="flex flex-col items-center w-full max-w-5xl mx-auto min-h-[70vh]">
       
-      
-      <div className="w-full flex justify-center mb-12">
-        <div className="flex flex-wrap gap-2 bg-white p-2 rounded-2xl border border-slate-200 shadow-sm justify-center">
+      {/* Control Panel - Minimalist Tabs */}
+      <div className="w-full flex justify-center mb-16">
+        <div className="flex flex-wrap gap-8 border-b border-white/5 pb-2 justify-center">
           {tabs.map(tab => (
             <button 
               key={tab.id}
-              className={`px-5 py-3 rounded-xl font-bold text-sm md:text-base transition-all ${activeTab === tab.id ? 'bg-slate-900 text-white shadow-md' : 'text-slate-500 hover:text-red-600 hover:bg-slate-50'}`}
+              className={`pb-2 font-mono font-bold text-xs uppercase tracking-[0.2em] transition-all duration-500 border-b-2 ${activeTab === tab.id ? 'border-primary text-primary' : 'border-transparent text-muted-foreground/60 hover:text-foreground'}`}
               onClick={() => setActiveTab(tab.id)}
             >
               {tab.label}
@@ -31,28 +30,47 @@ export default function Numbers() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full pb-20">
-        {numbersAndDates[activeTab].map((item, index) => (
-          <motion.div 
-            key={index} 
-            className="bg-white rounded-[2rem] p-8 shadow-sm hover:shadow-md border-2 border-slate-200 hover:border-red-200 transition-all flex flex-col justify-between relative overflow-hidden group" 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.05, duration: 0.4 }}
-          >
-            <div className="absolute inset-0 opacity-[0.03] bg-[url('/akatsuki_cloud.png')] bg-no-repeat bg-center bg-[length:60%] mix-blend-multiply pointer-events-none group-hover:scale-110 transition-transform duration-500" />
-            <div className="relative z-10">
-              {item.num && <div className="text-white bg-red-600 px-3 py-1 rounded-lg w-fit text-sm font-bold mb-4">{item.num}</div>}
-              <h2 className="text-4xl font-display text-slate-900 font-extrabold mb-3 group-hover:text-red-600 transition-colors">{item.jp}</h2>
-              <p className="text-slate-500 font-medium text-lg mb-1">{item.kana}</p>
-              <p className="text-slate-400 font-mono text-sm font-medium mb-6">{item.romaji}</p>
-            </div>
-            <div className="text-slate-800 text-lg font-bold border-t border-slate-100 pt-5 relative z-10">
-              {item.vn}
-            </div>
-          </motion.div>
-        ))}
-      </div>
+      <AnimatePresence mode="wait">
+        <motion.div 
+          key={activeTab}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.5 }}
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full pb-32"
+        >
+          {numbersAndDates[activeTab].map((item, index) => (
+            <motion.div 
+              key={index} 
+              className="group relative bg-surface/30 backdrop-blur-sm border border-white/5 p-10 hover:border-primary/40 hover:bg-surface/50 transition-all duration-700 flex flex-col justify-between overflow-hidden shadow-ambient" 
+            >
+              {/* Massive Background Number removed based on feedback */}
+
+              {/* Red Edge Accent */}
+              <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/0 to-transparent group-hover:via-primary/50 transition-all duration-1000" />
+              
+              <div className="relative z-10 mb-8">
+                {item.num && (
+                  <div className="text-primary/80 font-mono text-[10px] font-bold mb-6 tracking-[0.3em] uppercase group-hover:text-primary transition-colors">
+                    [{item.num}]
+                  </div>
+                )}
+                <h2 className="text-4xl md:text-5xl font-serifjp text-foreground font-bold mb-4 tracking-tight group-hover:text-primary transition-colors duration-500 leading-tight">
+                  {item.jp}
+                </h2>
+                <div className="flex flex-col gap-1">
+                  <p className="text-muted-foreground/80 font-serifjp font-medium text-lg">{item.kana}</p>
+                  <p className="text-accent/60 font-mono text-[10px] uppercase tracking-[0.3em]">{item.romaji}</p>
+                </div>
+              </div>
+              
+              <div className="text-foreground/90 text-sm md:text-base font-medium border-t border-white/10 pt-6 relative z-10 uppercase tracking-widest">
+                {item.vn}
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </AnimatePresence>
 
     </div>
   );

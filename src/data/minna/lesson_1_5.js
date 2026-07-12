@@ -75,7 +75,10 @@ export const lesson_1_5 = [
       { speaker: "Itachi", text_jp: "どうぞよろしくお願いします。", romaji: "Douzo yoroshiku onegaishimasu.", text_vn: "Rất mong được sự giúp đỡ của anh." },
       { speaker: "Pain", text_jp: "ペインです。暁のリーダーです。こちらこそよろしく。", romaji: "Pein desu. Akatsuki no riidaa desu. Kochirakoso yoroshiku.", text_vn: "Tôi là Pain. Thủ lĩnh của Akatsuki. Chính tôi mới là người mong được giúp đỡ." },
       { speaker: "Pain", text_jp: "イタチさんは２０歳ですか。", romaji: "Itachi-san wa nijuu-sai desu ka.", text_vn: "Itachi 20 tuổi phải không?" },
-      { speaker: "Itachi", text_jp: "いいえ、２０歳じゃありません。２１歳です。", romaji: "Iie, nijuu-sai ja arimasen. Nijuuissai desu.", text_vn: "Không, tôi không phải 20 tuổi. Tôi 21 tuổi." }
+      { speaker: "Itachi", text_jp: "いいえ、２０歳じゃありません。２１歳です。", romaji: "Iie, nijuu-sai ja arimasen. Nijuuissai desu.", text_vn: "Không, tôi không phải 20 tuổi. Tôi 21 tuổi." },
+      { speaker: "Pain", text_jp: "そうですか。学生ですか。", romaji: "Sou desu ka. Gakusei desu ka.", text_vn: "Vậy à. Cậu là học sinh à?" },
+      { speaker: "Itachi", text_jp: "いいえ、学生じゃありません。忍者です。", romaji: "Iie, gakusei ja arimasen. Ninja desu.", text_vn: "Không, tôi không phải học sinh. Tôi là nhẫn giả." },
+      { speaker: "Pain", text_jp: "分かりました。これからよろしく。", romaji: "Wakarimashita. Korekara yoroshiku.", text_vn: "Tôi hiểu rồi. Từ nay mong cậu giúp đỡ." }
     ]
   },
   {
@@ -146,7 +149,10 @@ export const lesson_1_5 = [
       { speaker: "Deidara", text_jp: "C4カルラです。ほんの気持ちです。どうぞ。", romaji: "Shii-foo Karura desu. Hon no kimochi desu. Douzo.", text_vn: "Là C4 Karura. Chỉ là chút lòng thành thôi. Xin mời anh." },
       { speaker: "Sasori", text_jp: "どうも。あのう、それは何ですか。", romaji: "Doumo. Anou, sore wa nan desu ka.", text_vn: "Cảm ơn nhé. À, cái đó là cái gì vậy?" },
       { speaker: "Deidara", text_jp: "これですか。これは私の粘土です。", romaji: "Kore desu ka. Kore wa watashi no nendo desu.", text_vn: "Cái này á? Đây là đất sét của tôi." },
-      { speaker: "Sasori", text_jp: "違います。芸術は長く美しいものですよ。", romaji: "Chigaimasu. Geijutsu wa nagaku utsukushii mono desu yo.", text_vn: "Sai rồi. Nghệ thuật là thứ gì đó đẹp đẽ và vĩnh cửu cơ." }
+      { speaker: "Sasori", text_jp: "違います。芸術は長く美しいものですよ。", romaji: "Chigaimasu. Geijutsu wa nagaku utsukushii mono desu yo.", text_vn: "Sai rồi. Nghệ thuật là thứ gì đó đẹp đẽ và vĩnh cửu cơ." },
+      { speaker: "Deidara", text_jp: "旦那の芸術は古いです。私の芸術は爆発です！", romaji: "Danna no geijutsu wa furui desu. Watashi no geijutsu wa bakuhatsu desu!", text_vn: "Nghệ thuật của đại ca lỗi thời rồi. Nghệ thuật của tôi là sự bùng nổ!" },
+      { speaker: "Sasori", text_jp: "うるさい。この人形は私の最高傑作です。", romaji: "Urusai. Kono ningyou wa watashi no saikoukessaku desu.", text_vn: "Ồn ào quá. Con rối này là kiệt tác lớn nhất của ta." },
+      { speaker: "Deidara", text_jp: "へえ、そうですか。でも爆発のほうが美しいですよ。", romaji: "Hee, sou desu ka. Demo bakuhatsu no hou ga utsukushii desu yo.", text_vn: "Hê, vậy sao. Nhưng bùng nổ vẫn đẹp hơn đó." }
     ]
   },
   {
@@ -222,7 +228,11 @@ export const lesson_1_5 = [
       { speaker: "Hidan", text_jp: "（後で）すみません、そのお金を見せてください。", romaji: "Sumimasen, sono okane o misete kudasai.", text_vn: "(Lúc sau) Xin lỗi, cho tôi xem đống tiền đó đi." },
       { speaker: "Kakuzu", text_jp: "だめだ。これは私の賞金だ。", romaji: "Dame da. Kore wa watashi no shoukin da.", text_vn: "Không được. Đây là tiền thưởng của tao." },
       { speaker: "Hidan", text_jp: "いくらですか。", romaji: "Ikura desu ka.", text_vn: "Bao nhiêu tiền vậy?" },
-      { speaker: "Kakuzu", text_jp: "３,５００万円です。", romaji: "San-sen go-hyaku man en desu.", text_vn: "35 triệu Yên." }
+      { speaker: "Kakuzu", text_jp: "３,５００万円です。", romaji: "San-sen go-hyaku man en desu.", text_vn: "35 triệu Yên." },
+      { speaker: "Hidan", text_jp: "うわあ、高いですね。このお金はどこからですか。", romaji: "Uwaa, takai desu ne. Kono okane wa doko kara desu ka.", text_vn: "Uoa, nhiều thật đấy. Tiền này từ đâu ra vậy?" },
+      { speaker: "Kakuzu", text_jp: "火の寺です。あの男は高かった。", romaji: "Hi no tera desu. Ano otoko wa takakatta.", text_vn: "Từ Hỏa Tự. Gã đàn ông đó rất có giá." },
+      { speaker: "Hidan", text_jp: "へえ、そうですか。少しください。", romaji: "Hee, sou desu ka. Sukoshi kudasai.", text_vn: "Hê, vậy sao. Cho tôi một ít đi." },
+      { speaker: "Kakuzu", text_jp: "絶対にだめです。", romaji: "Zettai ni dame desu.", text_vn: "Tuyệt đối không được." }
     ]
   },
   {
@@ -311,7 +321,11 @@ export const lesson_1_5 = [
       { speaker: "Itachi", text_jp: "６時半に起きます。", romaji: "Roku-ji han ni okimasu.", text_vn: "Tôi dậy lúc 6 rưỡi." },
       { speaker: "Kisame", text_jp: "きのうの晩、何時まで修行しましたか。", romaji: "Kinou no ban, nanji made shuugyou shimashita ka.", text_vn: "Tối hôm qua anh luyện tập đến mấy giờ?" },
       { speaker: "Itachi", text_jp: "１１時まで修行しました。とても疲れました。", romaji: "Juuichi-ji made shuugyou shimashita. Totemo tsukaremashita.", text_vn: "Tôi luyện tập đến 11 giờ. Rất mệt." },
-      { speaker: "Kisame", text_jp: "それは大変ですね。休みましょう。", romaji: "Sore wa taihen desu ne. Yasumimashou.", text_vn: "Thật là vất vả nhỉ. Hãy nghỉ ngơi thôi." }
+      { speaker: "Kisame", text_jp: "それは大変ですね。休みましょう。", romaji: "Sore wa taihen desu ne. Yasumimashou.", text_vn: "Thật là vất vả nhỉ. Hãy nghỉ ngơi thôi." },
+      { speaker: "Itachi", text_jp: "はい。鬼鮫さんは何時から何時まで寝ますか。", romaji: "Hai. Kisame-san wa nanji kara nanji made nemasu ka.", text_vn: "Ừ. Kisame anh ngủ từ mấy giờ đến mấy giờ?" },
+      { speaker: "Kisame", text_jp: "私は１２時から７時まで寝ます。", romaji: "Watashi wa juuni-ji kara shichi-ji made nemasu.", text_vn: "Tôi ngủ từ 12 giờ đến 7 giờ." },
+      { speaker: "Itachi", text_jp: "そうですか。明日も忙しいですか。", romaji: "Sou desu ka. Ashita mo isogashii desu ka.", text_vn: "Vậy sao. Ngày mai cũng bận chứ?" },
+      { speaker: "Kisame", text_jp: "ええ、明日は９時から任務です。", romaji: "Ee, ashita wa ku-ji kara ninmu desu.", text_vn: "Vâng, ngày mai có nhiệm vụ từ 9 giờ." }
     ]
   },
   {
@@ -386,7 +400,11 @@ export const lesson_1_5 = [
       { speaker: "Deidara", text_jp: "サソリの旦那と行きました。", romaji: "Sasori no danna to ikimashita.", text_vn: "Tôi đi cùng đại ca Sasori." },
       { speaker: "Pain", text_jp: "何で砂隠れへ行きましたか。", romaji: "Nan de Sunagakure e ikimashita ka.", text_vn: "Đi Làng Cát bằng gì?" },
       { speaker: "Deidara", text_jp: "粘土の鳥で行きました。", romaji: "Nendo no tori de ikimashita.", text_vn: "Tôi đi bằng chim đất sét." },
-      { speaker: "Pain", text_jp: "いいですね。任務ご苦労だった。", romaji: "Ii desu ne. Ninmu gokurou datta.", text_vn: "Tốt lắm. Vất vả cho nhiệm vụ rồi." }
+      { speaker: "Pain", text_jp: "いいですね。任務ご苦労だった。", romaji: "Ii desu ne. Ninmu gokurou datta.", text_vn: "Tốt lắm. Vất vả cho nhiệm vụ rồi." },
+      { speaker: "Deidara", text_jp: "来週はどこへ行きますか。", romaji: "Raishuu wa doko e ikimasu ka.", text_vn: "Tuần sau sẽ đi đâu ạ?" },
+      { speaker: "Pain", text_jp: "来週は雨隠れへ来てください。集まりがあります。", romaji: "Raishuu wa Amegakure e kite kudasai. Atsumari ga arimasu.", text_vn: "Tuần sau hãy đến Làng Mưa. Chúng ta có cuộc họp." },
+      { speaker: "Deidara", text_jp: "分かりました。一人で行きますか。", romaji: "Wakarimashita. Hitori de ikimasu ka.", text_vn: "Tôi hiểu rồi. Tôi đi một mình ạ?" },
+      { speaker: "Pain", text_jp: "いいえ、サソリと来てください。", romaji: "Iie, Sasori to kite kudasai.", text_vn: "Không, hãy đi cùng Sasori." }
     ]
   }
 ];
