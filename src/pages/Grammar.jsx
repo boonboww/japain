@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { lessons } from '../data/lessons';
 import { CustomSelect } from '../components/ui/CustomSelect';
+import { FuriganaText } from '../components/ui/FuriganaText';
 
 export default function Grammar() {
   const grammarLessons = lessons.filter(l => l.grammar && l.grammar.length > 0);
@@ -56,7 +57,9 @@ export default function Grammar() {
                   {/* Subtle Red Marker */}
                   <div className="absolute left-0 top-3 w-[2px] h-4 bg-primary/40 group-hover:bg-primary transition-colors duration-500" />
                   
-                  <p className="text-2xl md:text-3xl text-foreground font-serifjp font-bold mb-3 tracking-wide">{ex.jp}</p>
+                  <p className="text-2xl md:text-3xl text-foreground font-serifjp font-bold mb-3 tracking-wide">
+                    <FuriganaText text={ex.jp} />
+                  </p>
                   <p className="text-muted-foreground/60 font-mono text-[10px] md:text-xs tracking-[0.2em] uppercase mb-4">{ex.romaji}</p>
                   <p className="text-foreground/80 text-base font-medium">{ex.vn}</p>
                 </div>

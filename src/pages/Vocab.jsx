@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { lessons } from '../data/lessons';
 import { ArrowLeft, ArrowRight, RefreshCcw, Layers, List, Shuffle } from 'lucide-react';
 import { CustomSelect } from '../components/ui/CustomSelect';
+import { FuriganaText } from '../components/ui/FuriganaText';
 
 function shuffleArray(array) {
   const newArr = [...array];
@@ -57,8 +58,8 @@ export default function Vocab() {
   }, [location.state]);
 
   const currentVocab = sessionVocabList[currentIndex];
-  const displayJp = currentVocab?.jp ? currentVocab.jp.split(/\(|（/)[0].trim() : '';
-
+  // displayJp logic is no longer needed since FuriganaText handles it, but keeping it for reference or just removing it.
+  const displayJpRaw = currentVocab?.jp || '';
   const handleNext = () => {
     if (currentIndex < sessionVocabList.length - 1) {
       setIsFlipped(false);
@@ -190,7 +191,7 @@ export default function Vocab() {
 
                 <div className="flex-1 flex flex-col items-center justify-center relative z-10">
                   <h2 className="text-5xl md:text-6xl font-serifjp font-black text-foreground tracking-tight leading-tight w-full text-center">
-                    {mode === 'jp2vn' ? displayJp : currentVocab.vn}
+                    {mode === 'jp2vn' ? <FuriganaText text={displayJpRaw} /> : currentVocab.vn}
                   </h2>
                 </div>
 
@@ -227,7 +228,7 @@ export default function Vocab() {
 
                 <div className="flex-1 flex flex-col items-center justify-center relative z-10 gap-8">
                   <h2 className="text-3xl md:text-4xl font-bold font-sans text-foreground tracking-tight text-center leading-snug">
-                    {mode === 'jp2vn' ? currentVocab.vn : displayJp}
+                    {mode === 'jp2vn' ? currentVocab.vn : <FuriganaText text={displayJpRaw} />}
                   </h2>
                   
                   {currentVocab.romaji && (
@@ -284,7 +285,7 @@ export default function Vocab() {
               <div className="flex flex-col md:flex-row md:items-center justify-between py-6 border-b border-white/5 hover:border-primary/30 transition-colors duration-500 group px-4">
                 <div className="flex flex-col">
                   <span className="text-2xl font-serifjp font-bold text-foreground mb-2 group-hover:text-primary transition-colors duration-500">
-                    {vocab.jp.split(/\(|（/)[0].trim()}
+                    <FuriganaText text={vocab.jp} />
                   </span>
                   <span className="text-muted-foreground/60 font-mono text-xs tracking-[0.2em] uppercase">
                     {vocab.romaji}

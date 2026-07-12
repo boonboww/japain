@@ -19,10 +19,10 @@ export const narutoCharacters = [
   },
   {
     name_romaji: "Haruno Sakura",
-    name_kanji: "春野サクラ",
+    name_kanji: "春野(はるの)サクラ",
     explanation: [
-      { kanji: "春 (Haru)", meaning: "Mùa xuân." },
-      { kanji: "野 (No)", meaning: "Cánh đồng." },
+      { kanji: "春(はる) (Haru)", meaning: "Mùa xuân." },
+      { kanji: "野(の) (No)", meaning: "Cánh đồng." },
       { kanji: "サクラ (Sakura)", meaning: "Hoa anh đào." }
     ],
     summary: "Haruno Sakura có nghĩa là 'Cánh đồng hoa anh đào mùa xuân'. Tên gọi này thể hiện vẻ đẹp nữ tính, rực rỡ và mái tóc hồng đặc trưng của cô."
@@ -38,17 +38,17 @@ export const narutoCharacters = [
   },
   {
     name_romaji: "Hyūga Hinata",
-    name_kanji: "日向ヒナタ",
+    name_kanji: "日向(ひなた)ヒナタ",
     explanation: [
-      { kanji: "日向 (Hyūga / Hinata)", meaning: "日 (Nhật - Mặt trời) + 向 (Hướng - Hướng về). Nghĩa là 'Hướng về phía mặt trời', 'Nơi có ánh nắng chiếu tới'." }
+      { kanji: "日向(ひなた) (Hyūga / Hinata)", meaning: "日 (Nhật - Mặt trời) + 向 (Hướng - Hướng về). Nghĩa là 'Hướng về phía mặt trời', 'Nơi có ánh nắng chiếu tới'." }
     ],
     summary: "Cả họ và tên của Hinata đều mang ý nghĩa là hướng dương, nơi đón ánh sáng. Thể hiện sự ấm áp, dịu dàng và luôn kiên trì hướng về phía ánh sáng (Naruto) của cô."
   },
   {
     name_romaji: "Hyūga Neji",
-    name_kanji: "日向ネジ",
+    name_kanji: "日向(ひなた)ネジ",
     explanation: [
-      { kanji: "日向 (Hyūga)", meaning: "Nơi có ánh nắng chiếu tới." },
+      { kanji: "日向(ひなた) (Hyūga)", meaning: "Nơi có ánh nắng chiếu tới." },
       { kanji: "ネジ (Neji)", meaning: "Đinh ốc, xoắn ốc. Liên quan đến chiêu thức Hồi Thiên (Kaiten) xoay tròn của cậu." }
     ],
     summary: "Tên Neji (Đinh ốc) tượng trưng cho vòng xoáy của số phận mà cậu luôn tin rằng không thể thoát ra, cũng như chiêu thức xoay tròn phòng ngự tuyệt đối của cậu."
@@ -64,9 +64,9 @@ export const narutoCharacters = [
   },
   {
     name_romaji: "Nara Shikamaru",
-    name_kanji: "奈良シカマル",
+    name_kanji: "奈良(なら)シカマル",
     explanation: [
-      { kanji: "奈良 (Nara)", meaning: "Tên một tỉnh của Nhật Bản nổi tiếng với việc nuôi rất nhiều hươu." },
+      { kanji: "奈良(なら) (Nara)", meaning: "Tên một tỉnh của Nhật Bản nổi tiếng với việc nuôi rất nhiều hươu." },
       { kanji: "シカ (Shika)", meaning: "Con hươu (鹿)." },
       { kanji: "マル (Maru)", meaning: "Hậu tố phổ biến đặt cho bé trai thời xưa (Nghĩa là hình tròn, sự hoàn hảo)." }
     ],
@@ -74,19 +74,19 @@ export const narutoCharacters = [
   },
   {
     name_romaji: "Yamanaka Ino",
-    name_kanji: "山中いの",
+    name_kanji: "山中(さんちゅう)いの",
     explanation: [
-      { kanji: "山中 (Yamanaka)", meaning: "Giữa núi (山 - Núi, 中 - Trong/Giữa)." },
+      { kanji: "山中(さんちゅう) (Yamanaka)", meaning: "Giữa núi (山 - Núi, 中 - Trong/Giữa)." },
       { kanji: "いの (Ino)", meaning: "Lợn rừng (猪)." }
     ],
     summary: "Ino mang nghĩa là con lợn rừng ở giữa núi. Dù tên nghe hơi thô nhưng cô lại là người rất chú trọng vẻ đẹp và các loài hoa (gia đình bán hoa)."
   },
   {
     name_romaji: "Akimichi Chōji",
-    name_kanji: "秋道チョウジ",
+    name_kanji: "秋(あき)道(みち)チョウジ",
     explanation: [
-      { kanji: "秋 (Aki)", meaning: "Mùa thu (Mùa thu hoạch, ăn uống)." },
-      { kanji: "道 (Michi)", meaning: "Con đường." },
+      { kanji: "秋(あき) (Aki)", meaning: "Mùa thu (Mùa thu hoạch, ăn uống)." },
+      { kanji: "道(みち) (Michi)", meaning: "Con đường." },
       { kanji: "チョウ (Chou)", meaning: "Con bướm (蝶)." },
       { kanji: "ジ (Ji)", meaning: "Đứa con trai thứ hai (次)." }
     ],
@@ -94,30 +94,30 @@ export const narutoCharacters = [
   },
   {
     name_romaji: "Inuzuka Kiba",
-    name_kanji: "犬塚キバ",
+    name_kanji: "犬塚(いぬづか)キバ",
     explanation: [
-      { kanji: "犬 (Inu)", meaning: "Con chó." },
-      { kanji: "塚 (Zuka)", meaning: "Ngọn đồi, gò đất." },
+      { kanji: "犬(いぬ) (Inu)", meaning: "Con chó." },
+      { kanji: "塚(つか) (Zuka)", meaning: "Ngọn đồi, gò đất." },
       { kanji: "キバ (Kiba)", meaning: "Răng nanh (牙)." }
     ],
     summary: "Kiba có nghĩa là răng nanh. Gia tộc Inuzuka là gia tộc chuyên sử dụng nhẫn khuyển (chó ninja) trong chiến đấu."
   },
   {
     name_romaji: "Aburame Shino",
-    name_kanji: "油女シノ",
+    name_kanji: "油(あぶら)女(おんな)シノ",
     explanation: [
-      { kanji: "油女 (Aburame)", meaning: "Người phụ nữ lấy dầu (油 - Dầu, 女 - Nữ)." },
+      { kanji: "油(あぶら)女(おんな) (Aburame)", meaning: "Người phụ nữ lấy dầu (油 - Dầu, 女 - Nữ)." },
       { kanji: "シノ (Shino)", meaning: "Nhánh cỏ (篠)." }
     ],
     summary: "Tên của Shino gắn liền với thiên nhiên, phù hợp với bí thuật điều khiển côn trùng của gia tộc Aburame."
   },
   {
     name_romaji: "Gaara",
-    name_kanji: "我愛羅",
+    name_kanji: "我(わが)愛(あい)羅(ら)",
     explanation: [
-      { kanji: "我 (Ga)", meaning: "Ngã - Bản thân tôi." },
-      { kanji: "愛 (A)", meaning: "Ái - Yêu thương." },
-      { kanji: "羅 (Ra)", meaning: "La - Con quỷ (Tu-la)." }
+      { kanji: "我(わが) (Ga)", meaning: "Ngã - Bản thân tôi." },
+      { kanji: "愛(あい) (A)", meaning: "Ái - Yêu thương." },
+      { kanji: "羅(ら) (Ra)", meaning: "La - Con quỷ (Tu-la)." }
     ],
     summary: "Gaara (Ngã Ái La) mang ý nghĩa tàn khốc: 'Con quỷ chỉ biết yêu bản thân mình'. Đây là lời nguyền mà mẹ cậu để lại, và chữ 'Ái' (愛) luôn được khắc trên trán cậu."
   },
@@ -139,27 +139,27 @@ export const narutoCharacters = [
   },
   {
     name_romaji: "Orochimaru",
-    name_kanji: "大蛇丸",
+    name_kanji: "大蛇(だいじゃ)丸(まる)",
     explanation: [
-      { kanji: "大 (Oo)", meaning: "To lớn." },
-      { kanji: "蛇 (Orochi)", meaning: "Con rắn." },
-      { kanji: "丸 (Maru)", meaning: "Hậu tố bé trai." }
+      { kanji: "大(だい) (Oo)", meaning: "To lớn." },
+      { kanji: "蛇(へび) (Orochi)", meaning: "Con rắn." },
+      { kanji: "丸(まる) (Maru)", meaning: "Hậu tố bé trai." }
     ],
     summary: "Đại Xà Hoàn - Cậu bé rắn khổng lồ. Tên gọi này bắt nguồn từ thần thoại Bát Kỳ Đại Xà (Yamata no Orochi) của Nhật Bản."
   },
   {
     name_romaji: "Jiraiya",
-    name_kanji: "自来也",
+    name_kanji: "自(じ)来(らい)也(也)",
     explanation: [
-      { kanji: "自来也 (Jiraiya)", meaning: "Từ một cuốn tiểu thuyết dân gian (Jiraiya Gōketsu Monogatari), tên của một đạo tặc cưỡi cóc khổng lồ." }
+      { kanji: "自(じ)来(らい)也(也) (Jiraiya)", meaning: "Từ một cuốn tiểu thuyết dân gian (Jiraiya Gōketsu Monogatari), tên của một đạo tặc cưỡi cóc khổng lồ." }
     ],
     summary: "Đúng như truyền thuyết, Jiraiya trong Naruto là Tiên nhân cóc, triệu hồi những chú cóc khổng lồ núi Myoboku."
   },
   {
     name_romaji: "Tsunade",
-    name_kanji: "綱手",
+    name_kanji: "綱手(つなで)",
     explanation: [
-      { kanji: "綱手 (Tsunade)", meaning: "Sợi dây thừng buộc thuyền." }
+      { kanji: "綱手(つなで) (Tsunade)", meaning: "Sợi dây thừng buộc thuyền." }
     ],
     summary: "Trong truyền thuyết, Tsunade là vợ của Jiraiya và có phép thuật điều khiển sên. Trong truyện, bà cũng triệu hồi sên khổng lồ Katsuyu."
   },

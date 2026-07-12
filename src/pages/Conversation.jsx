@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { lessons } from '../data/lessons';
 import { CustomSelect } from '../components/ui/CustomSelect';
+import { FuriganaText } from '../components/ui/FuriganaText';
 
 export default function Conversation() {
   const conversationLessons = lessons.filter(l => l.conversation && l.conversation.length > 0);
@@ -55,7 +56,7 @@ export default function Conversation() {
                     </span>
                     
                     <p className="text-2xl md:text-3xl font-serifjp text-foreground font-bold mb-3 tracking-wide leading-relaxed">
-                      {c.text_jp}
+                      <FuriganaText text={c.text_jp} />
                     </p>
                     
                     <p className="text-muted-foreground/60 font-mono text-[10px] md:text-xs tracking-[0.2em] uppercase mb-6">

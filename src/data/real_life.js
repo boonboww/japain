@@ -48,31 +48,31 @@ export const dailyConversations = {
   conversation: [
     { 
       speaker: "Itachi", 
-      text_jp: "すみません、一番近い駅はどこですか。", 
+      text_jp: "すみません、一番(いちばん)近(ちか)い駅(えき)はどこですか。", 
       romaji: "Sumimasen, ichiban chikai eki wa doko desu ka.", 
       text_vn: "Xin lỗi, nhà ga gần nhất ở đâu vậy?" 
     },
     { 
       speaker: "Kisame", 
-      text_jp: "この道を真っ直ぐ行って、右に曲がってください。", 
+      text_jp: "この道(みち)を真(ま)っ直(す)ぐ行(い)って、右(みぎ)に曲(ま)がってください。", 
       romaji: "Kono michi o massugu itte, migi ni magatte kudasai.", 
       text_vn: "Bạn đi thẳng con đường này, rồi rẽ phải nhé." 
     },
     { 
       speaker: "Kakuzu", 
-      text_jp: "すみません、注文をお願いします。", 
+      text_jp: "すみません、注文(ちゅうもん)をお願(ねが)いします。", 
       romaji: "Sumimasen, chuumon o onegaishimasu.", 
       text_vn: "Xin lỗi, cho tôi gọi món." 
     },
     { 
       speaker: "Nhân viên", 
-      text_jp: "はい、何になさいますか。", 
+      text_jp: "はい、何(なに)になさいますか。", 
       romaji: "Hai, nani ni nasaimasu ka.", 
       text_vn: "Vâng, quý khách muốn dùng gì ạ?" 
     },
     { 
       speaker: "Kakuzu", 
-      text_jp: "このおすすめのラーメンを一つください。", 
+      text_jp: "このおすすめのラーメンを一(ひと)つください。", 
       romaji: "Kono osusume no raamen o hitotsu kudasai.", 
       text_vn: "Cho tôi một suất ramen gợi ý này." 
     },
@@ -84,37 +84,37 @@ export const dailyConversations = {
     },
     { 
       speaker: "Nhân viên", 
-      text_jp: "それは３千円です。", 
+      text_jp: "それは３千(せん)円(えん)です。", 
       romaji: "Sore wa san-zen en desu.", 
       text_vn: "Cái đó giá 3.000 yên ạ." 
     },
     { 
       speaker: "Konan", 
-      text_jp: "試着してもいいですか。", 
+      text_jp: "試(試)着(ちゃく)してもいいですか。", 
       romaji: "Shichaku shite mo ii desu ka.", 
       text_vn: "Tôi mặc thử có được không?" 
     },
     { 
       speaker: "Hidan", 
-      text_jp: "今週末、一緒に映画を見に行きませんか。", 
+      text_jp: "今週(こんしゅう)末(まつ)、一緒(いっしょ)に映画(えいが)を見(み)に行(い)きませんか。", 
       romaji: "Konshuumatsu, issho ni eiga o mi ni ikimasen ka.", 
       text_vn: "Cuối tuần này, đi xem phim cùng tôi không?" 
     },
     { 
       speaker: "Kakuzu", 
-      text_jp: "いいですね。何を見ますか。", 
+      text_jp: "いいですね。何(なに)を見(み)ますか。", 
       romaji: "Ii desu ne. Nani o mimasu ka.", 
       text_vn: "Được đấy. Chúng ta xem gì?" 
     },
     { 
       speaker: "Hidan", 
-      text_jp: "アクション映画はどうですか。", 
+      text_jp: "アクション映画(えいが)はどうですか。", 
       romaji: "Akushon eiga wa dou desu ka.", 
       text_vn: "Phim hành động thì sao?" 
     },
     { 
       speaker: "Kakuzu", 
-      text_jp: "じゃあ、日曜日の午後、駅で待ち合わせしましょう。", 
+      text_jp: "じゃあ、日曜日(にちようび)の午後(ごご)、駅(えき)で待(ま)ち合(あ)わせしましょう。", 
       romaji: "Jaa, nichiyoubi no gogo, eki de machiawase shimashou.", 
       text_vn: "Vậy chiều Chủ nhật, tụi mình hẹn gặp ở ga nhé." 
     }
@@ -144,25 +144,25 @@ export const businessConversations = {
   conversation: [
     { 
       speaker: "Deidara", 
-      text_jp: "先輩、お疲れ様です。明日の会議の資料を作成しました。", 
+      text_jp: "先輩(せんぱい)、お疲(つか)れ様(さま)です。明日(あした)の会議(かいぎ)の資料(しりょう)を作成(さくせい)しました。", 
       romaji: "Senpai, otsukaresama desu. Ashita no kaigi no shiryou o sakusei shimashita.", 
       text_vn: "Tiền bối, anh vất vả rồi. Tôi đã làm xong tài liệu cho cuộc họp ngày mai." 
     },
     { 
       speaker: "Sasori", 
-      text_jp: "お疲れ様。確認するから、そこに置いておいて。", 
+      text_jp: "お疲(つか)れ様(さま)。確認(かくにん)するから、そこに置(お)いておいて。", 
       romaji: "Otsukaresama. Kakunin suru kara, soko ni oite oite.", 
       text_vn: "Vất vả rồi. Tôi sẽ kiểm tra, cậu cứ để ở đó đi." 
     },
     { 
       speaker: "Deidara", 
-      text_jp: "承知いたしました。では、お先に失礼します。", 
+      text_jp: "承知(しょうち)いたしました。では、お先(さき)に失礼(しつれい)します。", 
       romaji: "Shouchi itashimashita. Dewa, osaki ni shitsureishimasu.", 
       text_vn: "Tôi hiểu rồi ạ. Vậy tôi xin phép về trước." 
     },
     { 
       speaker: "Sasori", 
-      text_jp: "うん、お疲れ様。", 
+      text_jp: "うん、お疲(つか)れ様(さま)。", 
       romaji: "Un, otsukaresama.", 
       text_vn: "Ừ, cậu vất vả rồi." 
     }
