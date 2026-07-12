@@ -28,7 +28,7 @@ export default function Anime() {
                 {char.explanation.map((item, i) => (
                   <div key={i} className="relative flex flex-col md:flex-row gap-4 md:gap-8 p-6 bg-surface/30 backdrop-blur-sm border border-white/5 items-start hover:border-primary/20 transition-all duration-500 shadow-ambient">
                     <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-primary/20" />
-                    <div className="text-3xl font-bold font-serifjp text-primary min-w-[120px] tracking-widest">
+                    <div className="text-3xl font-bold font-serifjp text-primary min-w-[150px] md:min-w-[220px] shrink-0 tracking-widest break-words">
                       {item.kanji}
                     </div>
                     <div className="text-foreground/80 text-base md:text-lg leading-relaxed font-medium">
