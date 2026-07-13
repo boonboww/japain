@@ -366,7 +366,21 @@ export const lesson_1_5 = [
       { jp: "何月（なんがつ）", kana: "なんがつ", romaji: "nangatsu", vn: "Tháng mấy", type: "Từ để hỏi", explanation: "Hỏi tháng." },
       { jp: "何日（なんにち）", kana: "なんにち", romaji: "nannichi", vn: "Ngày mùng mấy", type: "Từ để hỏi", explanation: "Hỏi ngày." },
       { jp: "いつ", kana: "いつ", romaji: "itsu", vn: "Khi nào", type: "Từ để hỏi", explanation: "Hỏi thời gian chung chung." },
-      { jp: "誕生日（たんじょうび）", kana: "たんじょうび", romaji: "tanjoubi", vn: "Sinh nhật", type: "Danh từ", explanation: "Ngày sinh." }
+      { jp: "誕生日（たんじょうび）", kana: "たんじょうび", romaji: "tanjoubi", vn: "Sinh nhật", type: "Danh từ", explanation: "Ngày sinh." },
+      { jp: "１日（ついたち）", kana: "ついたち", romaji: "tsuitachi", vn: "Ngày mùng 1", type: "Danh từ", explanation: "Ngày đầu tháng." },
+      { jp: "２日（ふつか）", kana: "ふつか", romaji: "futsuka", vn: "Ngày mùng 2", type: "Danh từ", explanation: "Ngày mùng hai." },
+      { jp: "３日（みっか）", kana: "みっか", romaji: "mikka", vn: "Ngày mùng 3", type: "Danh từ", explanation: "Ngày mùng ba." },
+      { jp: "４日（よっか）", kana: "よっか", romaji: "yokka", vn: "Ngày mùng 4", type: "Danh từ", explanation: "Ngày mùng bốn." },
+      { jp: "５日（いつか）", kana: "いつか", romaji: "itsuka", vn: "Ngày mùng 5", type: "Danh từ", explanation: "Ngày mùng năm." },
+      { jp: "６日（むいか）", kana: "むいか", romaji: "muika", vn: "Ngày mùng 6", type: "Danh từ", explanation: "Ngày mùng sáu." },
+      { jp: "７日（なのか）", kana: "なのか", romaji: "nanoka", vn: "Ngày mùng 7", type: "Danh từ", explanation: "Ngày mùng bảy." },
+      { jp: "８日（ようか）", kana: "ようか", romaji: "youka", vn: "Ngày mùng 8", type: "Danh từ", explanation: "Ngày mùng tám." },
+      { jp: "９日（ここのか）", kana: "ここのか", romaji: "kokonoka", vn: "Ngày mùng 9", type: "Danh từ", explanation: "Ngày mùng chín." },
+      { jp: "１０日（とおか）", kana: "とおか", romaji: "tooka", vn: "Ngày mùng 10", type: "Danh từ", explanation: "Ngày mùng mười." },
+      { jp: "１４日（じゅうよっか）", kana: "じゅうよっか", romaji: "juuyokka", vn: "Ngày 14", type: "Danh từ", explanation: "Mười bốn." },
+      { jp: "２０日（はつか）", kana: "はつか", romaji: "hatsuka", vn: "Ngày 20", type: "Danh từ", explanation: "Hai mươi." },
+      { jp: "２４日（にじゅうよっか）", kana: "にじゅうよっか", romaji: "nijuuyokka", vn: "Ngày 24", type: "Danh từ", explanation: "Hai mươi bốn." },
+      { jp: "～日（にち）", kana: "にち", romaji: "nichi", vn: "Ngày ~", type: "Danh từ", explanation: "Dùng để đếm ngày khác hoặc đọc các ngày thường." }
     ],
     grammar: [
       {

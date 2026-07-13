@@ -50,7 +50,24 @@ export const lesson_11_15 = [
       { jp: "～年（～ねん）", kana: "～ねん", romaji: "~nen", vn: "～ năm", type: "Hậu tố", explanation: "Khoảng thời gian (năm)." },
       { jp: "ぐらい", kana: "ぐらい", romaji: "gurai", vn: "Khoảng ~", type: "Trạng từ", explanation: "Ước lượng." },
       { jp: "どのくらい", kana: "どのくらい", romaji: "dono kurai", vn: "Bao lâu", type: "Từ để hỏi", explanation: "Hỏi khoảng thời gian." },
-      { jp: "全部（ぜんぶ）で", kana: "ぜんぶで", romaji: "zenbu de", vn: "Tổng cộng", type: "Trạng từ", explanation: "Toàn bộ." }
+      { jp: "全部（ぜんぶ）で", kana: "ぜんぶで", romaji: "zenbu de", vn: "Tổng cộng", type: "Trạng từ", explanation: "Toàn bộ." },
+      { jp: "一つ（ひとつ）", kana: "ひとつ", romaji: "hitotsu", vn: "Một cái (đồ vật)", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "二つ（ふたつ）", kana: "ふたつ", romaji: "futatsu", vn: "Hai cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "三つ（みっつ）", kana: "みっつ", romaji: "mittsu", vn: "Ba cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "四つ（よっつ）", kana: "よっつ", romaji: "yottsu", vn: "Bốn cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "五つ（いつつ）", kana: "いつつ", romaji: "itsutsu", vn: "Năm cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "六つ（むっつ）", kana: "むっつ", romaji: "muttsu", vn: "Sáu cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "七つ（ななつ）", kana: "ななつ", romaji: "nanatsu", vn: "Bảy cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "八つ（やっつ）", kana: "やっつ", romaji: "yattsu", vn: "Tám cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "九つ（ここのつ）", kana: "ここのつ", romaji: "kokonotsu", vn: "Chín cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "十（とお）", kana: "とお", romaji: "too", vn: "Mười cái", type: "Danh từ", explanation: "Đếm chung đồ vật." },
+      { jp: "いくつ", kana: "いくつ", romaji: "ikutsu", vn: "Bao nhiêu cái", type: "Từ để hỏi", explanation: "Hỏi số lượng đồ vật." },
+      { jp: "一人（ひとり）", kana: "ひとり", romaji: "hitori", vn: "Một người", type: "Danh từ", explanation: "Đếm người." },
+      { jp: "二人（ふたり）", kana: "ふたり", romaji: "futari", vn: "Hai người", type: "Danh từ", explanation: "Đếm người." },
+      { jp: "～人（にん）", kana: "にん", romaji: "nin", vn: "Người", type: "Danh từ", explanation: "Đơn vị đếm người (từ 3 người trở lên)." },
+      { jp: "～台（だい）", kana: "だい", romaji: "dai", vn: "Chiếc", type: "Danh từ", explanation: "Đơn vị đếm máy móc, xe cộ." },
+      { jp: "～枚（まい）", kana: "まい", romaji: "mai", vn: "Tờ, tấm", type: "Danh từ", explanation: "Đơn vị đếm vật mỏng (giấy, áo)." },
+      { jp: "～回（かい）", kana: "かい", romaji: "kai", vn: "Lần", type: "Danh từ", explanation: "Đơn vị đếm số lần." }
     ],
     grammar: [
       {

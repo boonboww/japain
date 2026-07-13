@@ -353,7 +353,18 @@ export const lesson_6_10 = [
       { jp: "外（そと）", kana: "そと", romaji: "soto", vn: "Ngoài", type: "Vị trí", explanation: "Bên ngoài." },
       { jp: "隣（となり）", kana: "となり", romaji: "tonari", vn: "Bên cạnh", type: "Vị trí", explanation: "Ngay kế bên." },
       { jp: "近（ちか）く", kana: "ちかく", romaji: "chikaku", vn: "Gần", type: "Vị trí", explanation: "Khu vực gần đó." },
-      { jp: "間（あいだ）", kana: "あいだ", romaji: "aida", vn: "Giữa", type: "Vị trí", explanation: "Ở giữa hai vật." }
+      { jp: "間（あいだ）", kana: "あいだ", romaji: "aida", vn: "Giữa", type: "Vị trí", explanation: "Ở giữa hai vật." },
+      { jp: "上（うえ）", kana: "うえ", romaji: "ue", vn: "Trên", type: "Danh từ", explanation: "Vị trí phía trên." },
+      { jp: "下（した）", kana: "した", romaji: "shita", vn: "Dưới", type: "Danh từ", explanation: "Vị trí phía dưới." },
+      { jp: "前（まえ）", kana: "まえ", romaji: "mae", vn: "Trước", type: "Danh từ", explanation: "Phía trước." },
+      { jp: "後（うし）ろ", kana: "うしろ", romaji: "ushiro", vn: "Sau", type: "Danh từ", explanation: "Phía sau." },
+      { jp: "右（みぎ）", kana: "みぎ", romaji: "migi", vn: "Phải", type: "Danh từ", explanation: "Bên phải." },
+      { jp: "左（ひだり）", kana: "ひだり", romaji: "hidari", vn: "Trái", type: "Danh từ", explanation: "Bên trái." },
+      { jp: "中（なか）", kana: "なか", romaji: "naka", vn: "Trong", type: "Danh từ", explanation: "Bên trong." },
+      { jp: "外（そと）", kana: "そと", romaji: "soto", vn: "Ngoài", type: "Danh từ", explanation: "Bên ngoài." },
+      { jp: "隣（となり）", kana: "となり", romaji: "tonari", vn: "Bên cạnh", type: "Danh từ", explanation: "Sát bên." },
+      { jp: "近（ちか）く", kana: "ちかく", romaji: "chikaku", vn: "Gần", type: "Danh từ", explanation: "Ở gần." },
+      { jp: "間（あいだ）", kana: "あいだ", romaji: "aida", vn: "Giữa", type: "Danh từ", explanation: "Ở giữa hai vật." }
     ],
     grammar: [
       {
