@@ -11,6 +11,7 @@ import GrammarView from "./pages/Grammar";
 import ConversationView from "./pages/Conversation";
 import NumbersView from "./pages/Numbers";
 import AnimeView from "./pages/Anime";
+import PracticeView from "./pages/Practice";
 import { AppHeader } from "@/components/layout/AppHeader";
 
 function AnimatedRoutes() {
@@ -33,6 +34,7 @@ function AnimatedRoutes() {
           <Route path="/conversation" element={<ConversationView />} />
           <Route path="/numbers" element={<NumbersView />} />
           <Route path="/anime" element={<AnimeView />} />
+          <Route path="/practice" element={<PracticeView />} />
         </Routes>
       </motion.div>
     </AnimatePresence>

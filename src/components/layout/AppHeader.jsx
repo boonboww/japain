@@ -11,7 +11,8 @@ export const AppHeader = () => {
     { to: "/vocab", label: "Từ vựng" },
     { to: "/grammar", label: "Ngữ pháp" },
     { to: "/conversation", label: "Hội thoại" },
-    { to: "/numbers", label: "Số đếm" }
+    { to: "/numbers", label: "Số đếm" },
+    { to: "/practice", label: "Luyện tập" }
   ];
 
   return (

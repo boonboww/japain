@@ -46,30 +46,30 @@ export const lesson_16_20 = [
         title: "Trình tự hành động (V1-て、V2-て、V3)",
         formula: "V1-て、 V2-て、 [V3-ます / V3-ました]",
         examples: [
-          { jp: "朝（あさ） 起（お）きて、 ごはんを 食（た）べて、 会社（かいしゃ）へ 行（い）きます。", romaji: "Asa okite, gohan o tabete, kaisha e ikimasu.", vn: "Buổi sáng tôi thức dậy, ăn cơm rồi đi làm." }
+          { jp: "朝（あさ） 起（お）きて、 ごはんを 食（た）べて、 会社（かいしゃ）へ 行（い）きます。", romaji: "Asa okite, gohan o tabete, kaisha e ikimasu.", vn: "Buổi sáng tôi thức dậy, ăn cơm rồi đi làm.", parts: ["朝（あさ）","起（お）きて、","ごはん","を","食（た）べて、","会社（かいしゃ）","へ","行（い）きます。"] }
         ]
       },
       {
         title: "Sau khi làm V1 thì làm V2",
         formula: "V1-てから、 V2",
         examples: [
-          { jp: "仕事（しごと）が 終（お）わってから、 飲（の）みに 行（い）きます。", romaji: "Shigoto ga owatte kara, nomi ni ikimasu.", vn: "Sau khi xong việc, tôi đi uống rượu." }
+          { jp: "仕事（しごと）が 終（お）わってから、 飲（の）みに 行（い）きます。", romaji: "Shigoto ga owatte kara, nomi ni ikimasu.", vn: "Sau khi xong việc, tôi đi uống rượu.", parts: ["仕事（しごと）","が","終（お）わってから、","飲（の）み","に","行（い）きます。"] }
         ]
       },
       {
         title: "Đặc điểm của 1 vật/người (Sở hữu từ)",
         formula: "N1 は N2 が [Tính từ] です。",
         examples: [
-          { jp: "象（ぞう）は 鼻（はな）が 長（なが）いです。", romaji: "Zou wa hana ga nagai desu.", vn: "Con voi có cái mũi dài." },
-          { jp: "マリアさんは 髪（かみ）が 長（なが）いです。", romaji: "Maria-san wa kami ga nagai desu.", vn: "Maria có mái tóc dài." }
+          { jp: "象（ぞう）は 鼻（はな）が 長（なが）いです。", romaji: "Zou wa hana ga nagai desu.", vn: "Con voi có cái mũi dài.", parts: ["象（ぞう）","は","鼻（はな）","が","長（なが）いです。"] },
+          { jp: "マリアさんは 髪（かみ）が 長（なが）いです。", romaji: "Maria-san wa kami ga nagai desu.", vn: "Maria có mái tóc dài.", parts: ["マリアさん","は","髪（かみ）","が","長（なが）いです。"] }
         ]
       },
       {
         title: "Nối câu với Tính từ/Danh từ",
         formula: "Aい → Aくて / Aな → Aで / N → Nで",
         examples: [
-          { jp: "このパソコンは 軽（かる）くて、 便利（べんり）です。", romaji: "Kono pasokon wa karukute, benri desu.", vn: "Máy tính này vừa nhẹ vừa tiện lợi." },
-          { jp: "クアンさんは １９歳（さい）で、 学生（がくせい）です。", romaji: "Kuan-san wa juukyuu-sai de, gakusei desu.", vn: "Quân 19 tuổi và là sinh viên." }
+          { jp: "このパソコンは 軽（かる）くて、 便利（べんり）です。", romaji: "Kono pasokon wa karukute, benri desu.", vn: "Máy tính này vừa nhẹ vừa tiện lợi.", parts: ["このパソコン","は","軽（かる）くて、","便利（べんり）です。"] },
+          { jp: "クアンさんは １９歳（さい）で、 学生（がくせい）です。", romaji: "Kuan-san wa juukyuu-sai de, gakusei desu.", vn: "Quân 19 tuổi và là sinh viên.", parts: ["クアンさん","は","１９歳（さい）で、","学生（がくせい）です。"] }
         ]
       }
     ],
@@ -116,31 +116,31 @@ export const lesson_16_20 = [
         title: "Thể NAI (Phủ định V-ない)",
         formula: "Chia động từ sang ない",
         examples: [
-          { jp: "書（か）きます → 書（か）かない", romaji: "kakimasu -> kakanai", vn: "Nhóm 1: き→か + ない" },
-          { jp: "食（た）べます → 食（た）べない", romaji: "tabemasu -> tabenai", vn: "Nhóm 2: Bỏ ます thêm ない" },
-          { jp: "来（き）ます → 来（こ）ない", romaji: "kimasu -> konai", vn: "Nhóm 3: 来ない (konai), します → しない" }
+          { jp: "書（か）きます → 書（か）かない", romaji: "kakimasu -> kakanai", vn: "Nhóm 1: き→か + ない", parts: ["書（か）きます","→","書（か）かない"] },
+          { jp: "食（た）べます → 食（た）べない", romaji: "tabemasu -> tabenai", vn: "Nhóm 2: Bỏ ます thêm ない", parts: ["食（た）べます","→","食（た）べない"] },
+          { jp: "来（き）ます → 来（こ）ない", romaji: "kimasu -> konai", vn: "Nhóm 3: 来ない (konai), します → しない", parts: ["来（き）ます","→","来（こ）ない"] }
         ]
       },
       {
         title: "Xin đừng làm ~",
         formula: "V-ないで ください",
         examples: [
-          { jp: "ここで 写真（しゃしん）を 撮（と）らないで ください。", romaji: "Koko de shashin o toranaide kudasai.", vn: "Xin đừng chụp ảnh ở đây." }
+          { jp: "ここで 写真（しゃしん）を 撮（と）らないで ください。", romaji: "Koko de shashin o toranaide kudasai.", vn: "Xin đừng chụp ảnh ở đây.", parts: ["ここ","で","写真（しゃしん）","を","撮（と）らない","で","ください。"] }
         ]
       },
       {
         title: "Phải làm ~ (Bắt buộc)",
         formula: "V-なければ なりません",
         examples: [
-          { jp: "薬（くすり）を 飲（の）まなければ なりません。", romaji: "Kusuri o nomanakereba narimasen.", vn: "Tôi phải uống thuốc." },
-          { jp: "明日（あした） 会社（かいしゃ）へ 行（い）かなければ なりません。", romaji: "Ashita kaisha e ikanakereba narimasen.", vn: "Ngày mai tôi phải đi công ty." }
+          { jp: "薬（くすり）を 飲（の）まなければ なりません。", romaji: "Kusuri o nomanakereba narimasen.", vn: "Tôi phải uống thuốc.", parts: ["薬（くすり）","を","飲（の）まなければ","なりません。"] },
+          { jp: "明日（あした） 会社（かいしゃ）へ 行（い）かなければ なりません。", romaji: "Ashita kaisha e ikanakereba narimasen.", vn: "Ngày mai tôi phải đi công ty.", parts: ["明日（あした）","会社（かいしゃ）","へ","行（い）かなければ","なりません。"] }
         ]
       },
       {
         title: "Không cần làm ~ cũng được",
         formula: "V-なくても いいです",
         examples: [
-          { jp: "明日（あした）は 休（やす）みですから、起（お）きなくても いいです。", romaji: "Ashita wa yasumi desukara, okinakutemo ii desu.", vn: "Ngày mai là ngày nghỉ nên không cần dậy sớm cũng được." }
+          { jp: "明日（あした）は 休（やす）みですから、起（お）きなくても いいです。", romaji: "Ashita wa yasumi desukara, okinakutemo ii desu.", vn: "Ngày mai là ngày nghỉ nên không cần dậy sớm cũng được.", parts: ["明日（あした）","は","休（やす）みですから、起（お）きなくて","も","いいです。"] }
         ]
       }
     ],
@@ -186,33 +186,33 @@ export const lesson_16_20 = [
         title: "Thể từ điển (V-る)",
         formula: "Chuyển Động từ sang thể nguyên dạng",
         examples: [
-          { jp: "書（か）きます → 書（か）く", romaji: "kakimasu -> kaku", vn: "Nhóm 1: Cột い sang cột う" },
-          { jp: "食（た）べます → 食（た）べる", romaji: "tabemasu -> taberu", vn: "Nhóm 2: Bỏ ます thêm る" },
-          { jp: "します → する / 来（き）ます → 来（く）る", romaji: "shimasu -> suru / kimasu -> kuru", vn: "Nhóm 3" }
+          { jp: "書（か）きます → 書（か）く", romaji: "kakimasu -> kaku", vn: "Nhóm 1: Cột い sang cột う", parts: ["書（か）きます","→","書（か）く"] },
+          { jp: "食（た）べます → 食（た）べる", romaji: "tabemasu -> taberu", vn: "Nhóm 2: Bỏ ます thêm る", parts: ["食（た）べます","→","食（た）べる"] },
+          { jp: "します → する / 来（き）ます → 来（く）る", romaji: "shimasu -> suru / kimasu -> kuru", vn: "Nhóm 3", parts: ["します","→","する","/","来（き）ます","→","来（く）る"] }
         ]
       },
       {
         title: "Khả năng (Có thể làm gì)",
         formula: "N / V-る こと が できます",
         examples: [
-          { jp: "私（わたし）は 運転（うんてん） が できます。", romaji: "Watashi wa unten ga dekimasu.", vn: "Tôi có thể lái xe (N)." },
-          { jp: "私（わたし）は 漢字（かんじ）を 読（よ）む こと が できます。", romaji: "Watashi wa kanji o yomu koto ga dekimasu.", vn: "Tôi có thể đọc chữ Hán (V-る こと)." }
+          { jp: "私（わたし）は 運転（うんてん） が できます。", romaji: "Watashi wa unten ga dekimasu.", vn: "Tôi có thể lái xe (N).", parts: ["私（わたし）","は","運転（うんてん）","が","できます。"] },
+          { jp: "私（わたし）は 漢字（かんじ）を 読（よ）む こと が できます。", romaji: "Watashi wa kanji o yomu koto ga dekimasu.", vn: "Tôi có thể đọc chữ Hán (V-る こと).", parts: ["私（わたし）","は","漢字（かんじ）","を","読（よ）む","こ","と","が","できます。"] }
         ]
       },
       {
         title: "Sở thích của tôi là...",
         formula: "私（わたし）の趣味（しゅみ）は N / V-る こと です。",
         examples: [
-          { jp: "私（わたし）の趣味（しゅみ）は 映画（えいが）です。", romaji: "Watashi no shumi wa eiga desu.", vn: "Sở thích của tôi là điện ảnh." },
-          { jp: "私（わたし）の趣味（しゅみ）は 写真（しゃしん）を 撮（と）る こと です。", romaji: "Watashi no shumi wa shashin o toru koto desu.", vn: "Sở thích của tôi là chụp ảnh." }
+          { jp: "私（わたし）の趣味（しゅみ）は 映画（えいが）です。", romaji: "Watashi no shumi wa eiga desu.", vn: "Sở thích của tôi là điện ảnh.", parts: ["私（わたし）の趣味（しゅみ）","は","映画（えいが）です。"] },
+          { jp: "私（わたし）の趣味（しゅみ）は 写真（しゃしん）を 撮（と）る こと です。", romaji: "Watashi no shumi wa shashin o toru koto desu.", vn: "Sở thích của tôi là chụp ảnh.", parts: ["私（わたし）の趣味（しゅみ）","は","写真（しゃしん）","を","撮（と）る","こ","と","です。"] }
         ]
       },
       {
         title: "Trước khi làm V1 thì làm V2",
         formula: "V1-る / Nの / Thời gian + まえに、V2",
         examples: [
-          { jp: "寝（ね）る まえに、 本（ほん）を 読（よ）みます。", romaji: "Neru mae ni, hon o yomimasu.", vn: "Trước khi đi ngủ, tôi đọc sách." },
-          { jp: "食事（しょくじ）の まえに、 手（て）を 洗（あら）います。", romaji: "Shokuji no mae ni, te o araimasu.", vn: "Trước bữa ăn, tôi rửa tay." }
+          { jp: "寝（ね）る まえに、 本（ほん）を 読（よ）みます。", romaji: "Neru mae ni, hon o yomimasu.", vn: "Trước khi đi ngủ, tôi đọc sách.", parts: ["寝（ね）る","まえに、","本（ほん）","を","読（よ）みます。"] },
+          { jp: "食事（しょくじ）の まえに、 手（て）を 洗（あら）います。", romaji: "Shokuji no mae ni, te o araimasu.", vn: "Trước bữa ăn, tôi rửa tay.", parts: ["食事（しょくじ）の","まえに、","手（て）","を","洗（あら）います。"] }
         ]
       }
     ],
@@ -255,32 +255,32 @@ export const lesson_16_20 = [
         title: "Thể TA (V-た)",
         formula: "Chia giống hệt thể TE, nhưng đổi chữ e thành chữ a",
         examples: [
-          { jp: "書（か）いて → 書（か）いた", romaji: "kaite -> kaita", vn: "Viết." },
-          { jp: "飲（の）んで → 飲（の）んだ", romaji: "nonde -> nonda", vn: "Uống." },
-          { jp: "食（た）べて → 食（た）べた", romaji: "tabete -> tabeta", vn: "Ăn." }
+          { jp: "書（か）いて → 書（か）いた", romaji: "kaite -> kaita", vn: "Viết.", parts: ["書（か）いて","→","書（か）いた"] },
+          { jp: "飲（の）んで → 飲（の）んだ", romaji: "nonde -> nonda", vn: "Uống.", parts: ["飲（の）ん","で","→","飲（の）んだ"] },
+          { jp: "食（た）べて → 食（た）べた", romaji: "tabete -> tabeta", vn: "Ăn.", parts: ["食（た）べて","→","食（た）べた"] }
         ]
       },
       {
         title: "Kinh nghiệm (Đã từng làm gì)",
         formula: "V-た こと が あります",
         examples: [
-          { jp: "私（わたし）は 富士山（ふじさん）に 登（のぼ）った こと が あります。", romaji: "Watashi wa Fujisan ni nobotta koto ga arimasu.", vn: "Tôi đã từng leo núi Phú Sĩ." },
-          { jp: "寿司（すし）を 食（た）べた こと が ありません。", romaji: "Sushi o tabeta koto ga arimasen.", vn: "Tôi chưa từng ăn sushi." }
+          { jp: "私（わたし）は 富士山（ふじさん）に 登（のぼ）った こと が あります。", romaji: "Watashi wa Fujisan ni nobotta koto ga arimasu.", vn: "Tôi đã từng leo núi Phú Sĩ.", parts: ["私（わたし）","は","富士山（ふじさん）","に","登（のぼ）った","こ","と","が","あります。"] },
+          { jp: "寿司（すし）を 食（た）べた こと が ありません。", romaji: "Sushi o tabeta koto ga arimasen.", vn: "Tôi chưa từng ăn sushi.", parts: ["寿司（すし）","を","食（た）べた","こ","と","が","ありません。"] }
         ]
       },
       {
         title: "Liệt kê hành động (Làm việc A, việc B...)",
         formula: "V1-たり、 V2-たり します",
         examples: [
-          { jp: "日曜日（にちようび）は 本（ほん）を 読（よ）んだり、 映画（えいが）を 見（み）たり します。", romaji: "Nichiyoubi wa hon o yondari, eiga o mitari shimasu.", vn: "Chủ nhật tôi đọc sách, xem phim..." }
+          { jp: "日曜日（にちようび）は 本（ほん）を 読（よ）んだり、 映画（えいが）を 見（み）たり します。", romaji: "Nichiyoubi wa hon o yondari, eiga o mitari shimasu.", vn: "Chủ nhật tôi đọc sách, xem phim...", parts: ["日曜日（にちようび）","は","本（ほん）","を","読（よ）んだり、","映画（えいが）","を","見（み）たり","します。"] }
         ]
       },
       {
         title: "Trở nên, thay đổi trạng thái",
         formula: "Aい(bỏ い) + く なります / Aな(bỏ な) + に なります / N に なります",
         examples: [
-          { jp: "寒（さむ）く なります。", romaji: "Samuku narimasu.", vn: "Trời trở nên lạnh." },
-          { jp: "元気（げんき）に なります。", romaji: "Genki ni narimasu.", vn: "Trở nên khỏe mạnh." }
+          { jp: "寒（さむ）く なります。", romaji: "Samuku narimasu.", vn: "Trời trở nên lạnh.", parts: ["寒（さむ）く","なります。"] },
+          { jp: "元気（げんき）に なります。", romaji: "Genki ni narimasu.", vn: "Trở nên khỏe mạnh.", parts: ["元気（げんき）","に","なります。"] }
         ]
       }
     ],
@@ -328,34 +328,34 @@ export const lesson_16_20 = [
         title: "Động từ Thể thông thường",
         formula: "V-る (Hiện tại) / V-ない (Phủ định) / V-た (Quá khứ) / V-なかった (Phủ định quá khứ)",
         examples: [
-          { jp: "行（い）きます → 行（い）く", romaji: "ikimasu -> iku", vn: "Đi" },
-          { jp: "行（い）きません → 行（い）かない", romaji: "ikimasen -> ikanai", vn: "Không đi" },
-          { jp: "行（い）きました → 行（い）った", romaji: "ikimashita -> itta", vn: "Đã đi" },
-          { jp: "行（い）きませんでした → 行（い）かなかった", romaji: "ikimasen deshita -> ikanakatta", vn: "Đã không đi" }
+          { jp: "行（い）きます → 行（い）く", romaji: "ikimasu -> iku", vn: "Đi", parts: ["行（い）きます","→","行（い）く"] },
+          { jp: "行（い）きません → 行（い）かない", romaji: "ikimasen -> ikanai", vn: "Không đi", parts: ["行（い）きません","→","行（い）かない"] },
+          { jp: "行（い）きました → 行（い）った", romaji: "ikimashita -> itta", vn: "Đã đi", parts: ["行（い）きました","→","行（い）った"] },
+          { jp: "行（い）きませんでした → 行（い）かなかった", romaji: "ikimasen deshita -> ikanakatta", vn: "Đã không đi", parts: ["行（い）きません","でした","→","行（い）かなかった"] }
         ]
       },
       {
         title: "Tính từ đuôi い Thể thông thường",
         formula: "Bỏ です",
         examples: [
-          { jp: "高（たか）いです → 高（たか）い", romaji: "takai desu -> takai", vn: "Cao" },
-          { jp: "高（たか）くないです → 高（たか）くない", romaji: "takakunai desu -> takakunai", vn: "Không cao" }
+          { jp: "高（たか）いです → 高（たか）い", romaji: "takai desu -> takai", vn: "Cao", parts: ["高（たか）い","です","→","高（たか）い"] },
+          { jp: "高（たか）くないです → 高（たか）くない", romaji: "takakunai desu -> takakunai", vn: "Không cao", parts: ["高（たか）くない","です","→","高（たか）くない"] }
         ]
       },
       {
         title: "Tính từ đuôi な / Danh từ Thể thông thường",
         formula: "Thay です bằng だ (Khẳng định), các thì khác tương tự",
         examples: [
-          { jp: "元気（げんき）です → 元気（げんき）だ", romaji: "genki desu -> genki da", vn: "Khỏe" },
-          { jp: "元気（げんき）じゃありません → 元気（げんき）じゃない", romaji: "genki ja arimasen -> genki janai", vn: "Không khỏe" }
+          { jp: "元気（げんき）です → 元気（げんき）だ", romaji: "genki desu -> genki da", vn: "Khỏe", parts: ["元気（げんき）","です","→","元気（げんき）だ"] },
+          { jp: "元気（げんき）じゃありません → 元気（げんき）じゃない", romaji: "genki ja arimasen -> genki janai", vn: "Không khỏe", parts: ["元気（げんき）","じゃありません","→","元気（げんき）じゃない"] }
         ]
       },
       {
         title: "Câu hỏi Thể thông thường",
         formula: "Bỏ か, lên giọng ở cuối câu",
         examples: [
-          { jp: "明日（あした） 行（い）く？ (Lên giọng)", romaji: "Ashita iku?", vn: "Ngày mai đi không?" },
-          { jp: "うん、行（い）く。 / ううん、行（い）かない。", romaji: "Un, iku. / Uun, ikanai.", vn: "Ừ, đi. / Không, không đi." }
+          { jp: "明日（あした） 行（い）く？ (Lên giọng)", romaji: "Ashita iku?", vn: "Ngày mai đi không?", parts: ["明日（あした）","行（い）く？","(Lên","giọng)"] },
+          { jp: "うん、行（い）く。 / ううん、行（い）かない。", romaji: "Un, iku. / Uun, ikanai.", vn: "Ừ, đi. / Không, không đi.", parts: ["うん、行（い）く。","/","ううん、行（い）かない。"] }
         ]
       }
     ],

@@ -48,29 +48,29 @@ export const lesson_6_10 = [
         title: "Làm cái gì (Trợ từ を)",
         formula: "N を V-ます",
         examples: [
-          { jp: "ごはん を 食（た）べます。", romaji: "Gohan o tabemasu.", vn: "Tôi ăn cơm." },
-          { jp: "水（みず） を 飲（の）みます。", romaji: "Mizu o nomimasu.", vn: "Tôi uống nước." }
+          { jp: "ごはん を 食（た）べます。", romaji: "Gohan o tabemasu.", vn: "Tôi ăn cơm.", parts: ["ごはん","を","食（た）べます。"] },
+          { jp: "水（みず） を 飲（の）みます。", romaji: "Mizu o nomimasu.", vn: "Tôi uống nước.", parts: ["水（みず）","を","飲（の）みます。"] }
         ]
       },
       {
         title: "Làm ở đâu (Trợ từ で)",
         formula: "[Nơi chốn] で N を V-ます",
         examples: [
-          { jp: "レストランで ごはんを 食（た）べます。", romaji: "Resutoran de gohan o tabemasu.", vn: "Tôi ăn cơm ở nhà hàng." }
+          { jp: "レストランで ごはんを 食（た）べます。", romaji: "Resutoran de gohan o tabemasu.", vn: "Tôi ăn cơm ở nhà hàng.", parts: ["レストラン","で","ごはん","を","食（た）べます。"] }
         ]
       },
       {
         title: "Cùng làm nhé (～ませんか)",
         formula: "V-ませんか",
         examples: [
-          { jp: "一緒（いっしょ）に 京都（きょうと）へ 行（い）きませんか。", romaji: "Issho ni Kyouto e ikimasen ka.", vn: "Cùng đi Kyoto với tôi không?" }
+          { jp: "一緒（いっしょ）に 京都（きょうと）へ 行（い）きませんか。", romaji: "Issho ni Kyouto e ikimasen ka.", vn: "Cùng đi Kyoto với tôi không?", parts: ["一緒（いっしょ）","に","京都（きょうと）","へ","行（い）きませんか。"] }
         ]
       },
       {
         title: "Hãy làm đi / Cùng làm nào (～ましょう)",
         formula: "V-ましょう",
         examples: [
-          { jp: "ちょっと 休（やす）みましょう。", romaji: "Chotto yasumimashou.", vn: "Chúng ta cùng nghỉ một chút nào." }
+          { jp: "ちょっと 休（やす）みましょう。", romaji: "Chotto yasumimashou.", vn: "Chúng ta cùng nghỉ một chút nào.", parts: ["ちょっ","と","休（やす）みましょう。"] }
         ]
       }
     ],
@@ -126,29 +126,29 @@ export const lesson_6_10 = [
         title: "Bằng phương tiện/công cụ gì (Trợ từ で)",
         formula: "[Công cụ] で V-ます",
         examples: [
-          { jp: "箸（はし）で ごはんを 食（た）べます。", romaji: "Hashi de gohan o tabemasu.", vn: "Tôi ăn cơm bằng đũa." },
-          { jp: "日本語（にほんご）で レポートを書（か）きます。", romaji: "Nihongo de repooto o kakimasu.", vn: "Tôi viết báo cáo bằng tiếng Nhật." }
+          { jp: "箸（はし）で ごはんを 食（た）べます。", romaji: "Hashi de gohan o tabemasu.", vn: "Tôi ăn cơm bằng đũa.", parts: ["箸（はし）","で","ごはん","を","食（た）べます。"] },
+          { jp: "日本語（にほんご）で レポートを書（か）きます。", romaji: "Nihongo de repooto o kakimasu.", vn: "Tôi viết báo cáo bằng tiếng Nhật.", parts: ["日本語（にほんご）","で","レポートを書（か）きます。"] }
         ]
       },
       {
         title: "Cho, tặng ai cái gì",
         formula: "[Người nhận] に [Vật] を あげます",
         examples: [
-          { jp: "山田（やまだ）さんに 花（はな）を あげます。", romaji: "Yamada-san ni hana o agemasu.", vn: "Tôi tặng hoa cho Yamada." }
+          { jp: "山田（やまだ）さんに 花（はな）を あげます。", romaji: "Yamada-san ni hana o agemasu.", vn: "Tôi tặng hoa cho Yamada.", parts: ["山田（やまだ）さん","に","花（はな）","を","あげます。"] }
         ]
       },
       {
         title: "Nhận cái gì từ ai",
         formula: "[Người cho] に/から [Vật] を もらいます",
         examples: [
-          { jp: "母（はは）に お金（かね）を もらいました。", romaji: "Haha ni okane o moraimashita.", vn: "Tôi đã nhận tiền từ mẹ." }
+          { jp: "母（はは）に お金（かね）を もらいました。", romaji: "Haha ni okane o moraimashita.", vn: "Tôi đã nhận tiền từ mẹ.", parts: ["母（はは）","に","お金（かね）","を","もらいました。"] }
         ]
       },
       {
         title: "Đã làm ~ rồi (もう)",
         formula: "もう V-ました",
         examples: [
-          { jp: "もう 昼（ひる）ごはんを 食（た）べました。", romaji: "Mou hirugohan o tabemashita.", vn: "Tôi ĐÃ ăn trưa RỒI." }
+          { jp: "もう 昼（ひる）ごはんを 食（た）べました。", romaji: "Mou hirugohan o tabemashita.", vn: "Tôi ĐÃ ăn trưa RỒI.", parts: ["もう","昼（ひる）ごはん","を","食（た）べました。"] }
         ]
       }
     ],
@@ -205,24 +205,24 @@ export const lesson_6_10 = [
         title: "Khẳng định Tính từ",
         formula: "N は [Tính từ な (bỏ な) / Tính từ い] です",
         examples: [
-          { jp: "山田（やまだ）さんは 親切（しんせつ）です。", romaji: "Yamada-san wa shinsetsu desu.", vn: "Anh Yamada rất tốt bụng." },
-          { jp: "富士山（ふじさん）は 高（たか）いです。", romaji: "Fujisan wa takai desu.", vn: "Núi Phú Sĩ thì cao." }
+          { jp: "山田（やまだ）さんは 親切（しんせつ）です。", romaji: "Yamada-san wa shinsetsu desu.", vn: "Anh Yamada rất tốt bụng.", parts: ["山田（やまだ）さん","は","親切（しんせつ）です。"] },
+          { jp: "富士山（ふじさん）は 高（たか）いです。", romaji: "Fujisan wa takai desu.", vn: "Núi Phú Sĩ thì cao.", parts: ["富士山（ふじさん）","は","高（たか）いです。"] }
         ]
       },
       {
         title: "Phủ định Tính từ",
         formula: "Tính từ な: じゃありません / Tính từ い: ~くないです",
         examples: [
-          { jp: "この町（まち）は 静（しず）かじゃありません。", romaji: "Kono machi wa shizuka ja arimasen.", vn: "Thành phố này không yên tĩnh." },
-          { jp: "この本（ほん）は 面白（おもしろ）くないです。", romaji: "Kono hon wa omoshirokunai desu.", vn: "Cuốn sách này không thú vị." }
+          { jp: "この町（まち）は 静（しず）かじゃありません。", romaji: "Kono machi wa shizuka ja arimasen.", vn: "Thành phố này không yên tĩnh.", parts: ["この町（まち）","は","静（しず）かじゃありません。"] },
+          { jp: "この本（ほん）は 面白（おもしろ）くないです。", romaji: "Kono hon wa omoshirokunai desu.", vn: "Cuốn sách này không thú vị.", parts: ["この本（ほん）","は","面白（おもしろ）くないです。"] }
         ]
       },
       {
         title: "Bổ nghĩa cho Danh từ",
         formula: "[Tính từ な / Tính từ い] + N",
         examples: [
-          { jp: "きれいな 花（はな）", romaji: "kireina hana", vn: "Bông hoa đẹp." },
-          { jp: "新（あたら）しい 車（くるま）", romaji: "atarashii kuruma", vn: "Chiếc ô tô mới." }
+          { jp: "きれいな 花（はな）", romaji: "kireina hana", vn: "Bông hoa đẹp.", parts: ["きれいな","花（はな）"] },
+          { jp: "新（あたら）しい 車（くるま）", romaji: "atarashii kuruma", vn: "Chiếc ô tô mới.", parts: ["新（あたら）しい","車（くるま）"] }
         ]
       }
     ],
@@ -286,16 +286,16 @@ export const lesson_6_10 = [
         title: "Sở thích / Năng lực (Trợ từ が)",
         formula: "N が [好（す）き / 嫌（きら）い / 上手（じょうず） / 下手（へた） / 分（わ）かります / あります]",
         examples: [
-          { jp: "私（わたし）は イタリア料理（りょうり） が 好（す）きです。", romaji: "Watashi wa Itaria ryouri ga suki desu.", vn: "Tôi thích món ăn Ý." },
-          { jp: "彼（かれ）は 日本語（にほんご） が 分（わ）かります。", romaji: "Kare wa nihongo ga wakarimasu.", vn: "Anh ấy hiểu tiếng Nhật." },
-          { jp: "私（わたし）は 車（くるま） が あります。", romaji: "Watashi wa kuruma ga arimasu.", vn: "Tôi có ô tô." }
+          { jp: "私（わたし）は イタリア料理（りょうり） が 好（す）きです。", romaji: "Watashi wa Itaria ryouri ga suki desu.", vn: "Tôi thích món ăn Ý.", parts: ["私（わたし）","は","イタリア料理（りょうり）","が","好（す）きです。"] },
+          { jp: "彼（かれ）は 日本語（にほんご） が 分（わ）かります。", romaji: "Kare wa nihongo ga wakarimasu.", vn: "Anh ấy hiểu tiếng Nhật.", parts: ["彼（かれ）","は","日本語（にほんご）","が","分（わ）かります。"] },
+          { jp: "私（わたし）は 車（くるま） が あります。", romaji: "Watashi wa kuruma ga arimasu.", vn: "Tôi có ô tô.", parts: ["私（わたし）","は","車（くるま）","が","あります。"] }
         ]
       },
       {
         title: "Lý do (Vì...)",
         formula: "Câu 1 から、 Câu 2。",
         examples: [
-          { jp: "時間（じかん）が ありませんから、タクシーで 行（い）きます。", romaji: "Jikan ga arimasen kara, takushii de ikimasu.", vn: "Vì không có thời gian nên tôi đi bằng taxi." }
+          { jp: "時間（じかん）が ありませんから、タクシーで 行（い）きます。", romaji: "Jikan ga arimasen kara, takushii de ikimasu.", vn: "Vì không có thời gian nên tôi đi bằng taxi.", parts: ["時間（じかん）","が","ありませんから、タクシー","で","行（い）きます。"] }
         ]
       }
     ],
@@ -360,16 +360,16 @@ export const lesson_6_10 = [
         title: "Tồn tại (Ở đâu có cái gì)",
         formula: "Nơi chốn に N(vật) が あります / N(người) が います",
         examples: [
-          { jp: "机（つくえ）の上（うえ）に 本（ほん）が あります。", romaji: "Tsukue no ue ni hon ga arimasu.", vn: "Ở trên bàn có cuốn sách." },
-          { jp: "事務所（じむしょ）に 田中（たなか）さんが います。", romaji: "Jimusho ni Tanaka-san ga imasu.", vn: "Trong văn phòng có anh Tanaka." }
+          { jp: "机（つくえ）の上（うえ）に 本（ほん）が あります。", romaji: "Tsukue no ue ni hon ga arimasu.", vn: "Ở trên bàn có cuốn sách.", parts: ["机（つくえ）の上（うえ）","に","本（ほん）","が","あります。"] },
+          { jp: "事務所（じむしょ）に 田中（たなか）さんが います。", romaji: "Jimusho ni Tanaka-san ga imasu.", vn: "Trong văn phòng có anh Tanaka.", parts: ["事務所（じむしょ）","に","田中（たなか）さん","が","います。"] }
         ]
       },
       {
         title: "Cái gì ở đâu",
         formula: "N は Nơi chốn に あります/います",
         examples: [
-          { jp: "時計（とけい）は 机（つくえ）の上（うえ）に あります。", romaji: "Tokei wa tsukue no ue ni arimasu.", vn: "Đồng hồ thì ở trên bàn." },
-          { jp: "田中（たなか）さんは 事務所（じむしょ）に います。", romaji: "Tanaka-san wa jimusho ni imasu.", vn: "Anh Tanaka thì ở văn phòng." }
+          { jp: "時計（とけい）は 机（つくえ）の上（うえ）に あります。", romaji: "Tokei wa tsukue no ue ni arimasu.", vn: "Đồng hồ thì ở trên bàn.", parts: ["時計（とけい）","は","机（つくえ）の上（うえ）","に","あります。"] },
+          { jp: "田中（たなか）さんは 事務所（じむしょ）に います。", romaji: "Tanaka-san wa jimusho ni imasu.", vn: "Anh Tanaka thì ở văn phòng.", parts: ["田中（たなか）さん","は","事務所（じむしょ）","に","います。"] }
         ]
       }
     ],

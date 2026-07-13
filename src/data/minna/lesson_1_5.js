@@ -42,29 +42,29 @@ export const lesson_1_5 = [
         title: "Khẳng định: N1 は N2 です",
         formula: "N1 は N2 です。",
         examples: [
-          { jp: "私（わたし）は 学生（がくせい）です。", romaji: "Watashi wa gakusei desu.", vn: "Tôi là học sinh." },
-          { jp: "山田（やまだ）さんは 医者（いしゃ）です。", romaji: "Yamada-san wa isha desu.", vn: "Anh Yamada là bác sĩ." }
+          { jp: "私（わたし）は 学生（がくせい）です。", romaji: "Watashi wa gakusei desu.", vn: "Tôi là học sinh.", parts: ["私（わたし）","は","学生（がくせい）です。"] },
+          { jp: "山田（やまだ）さんは 医者（いしゃ）です。", romaji: "Yamada-san wa isha desu.", vn: "Anh Yamada là bác sĩ.", parts: ["山田（やまだ）さん","は","医者（いしゃ）です。"] }
         ]
       },
       {
         title: "Phủ định: N1 じゃありません",
         formula: "N1 は N2 じゃありません / ではりません。",
         examples: [
-          { jp: "私（わたし）は 教師（きょうし）じゃありません。", romaji: "Watashi wa kyoushi ja arimasen.", vn: "Tôi không phải là giáo viên." }
+          { jp: "私（わたし）は 教師（きょうし）じゃありません。", romaji: "Watashi wa kyoushi ja arimasen.", vn: "Tôi không phải là giáo viên.", parts: ["私（わたし）","は","教師（きょうし）じゃありません。"] }
         ]
       },
       {
         title: "Câu hỏi: N1 は N2 ですか",
         formula: "N1 は N2 ですか。",
         examples: [
-          { jp: "あの人（ひと）は エンジニアですか。", romaji: "Ano hito wa enjinia desu ka.", vn: "Người kia là kỹ sư phải không?" }
+          { jp: "あの人（ひと）は エンジニアですか。", romaji: "Ano hito wa enjinia desu ka.", vn: "Người kia là kỹ sư phải không?", parts: ["あの人（ひと）","は","エンジニアですか。"] }
         ]
       },
       {
         title: "Trợ từ も (Cũng)",
         formula: "N も ... です。",
         examples: [
-          { jp: "私（わたし）も 学生（がくせい）です。", romaji: "Watashi mo gakusei desu.", vn: "Tôi CŨNG là học sinh." }
+          { jp: "私（わたし）も 学生（がくせい）です。", romaji: "Watashi mo gakusei desu.", vn: "Tôi CŨNG là học sinh.", parts: ["私（わたし）","も","学生（がくせい）です。"] }
         ]
       }
     ],
@@ -122,22 +122,22 @@ export const lesson_1_5 = [
         title: "これ / それ / あれ は N です",
         formula: "[これ/それ/あれ] は N です。",
         examples: [
-          { jp: "これ は 辞書（じしょ）です。", romaji: "Kore wa jisho desu.", vn: "Đây là cuốn từ điển." }
+          { jp: "これ は 辞書（じしょ）です。", romaji: "Kore wa jisho desu.", vn: "Đây là cuốn từ điển.", parts: ["これ","は","辞書（じしょ）です。"] }
         ]
       },
       {
         title: "Câu hỏi lựa chọn",
         formula: "N1 ですか、 N2 ですか。",
         examples: [
-          { jp: "これ は 本（ほん）ですか、雑誌（ざっし）ですか。", romaji: "Kore wa hon desu ka, zasshi desu ka.", vn: "Đây là sách hay là tạp chí?" }
+          { jp: "これ は 本（ほん）ですか、雑誌（ざっし）ですか。", romaji: "Kore wa hon desu ka, zasshi desu ka.", vn: "Đây là sách hay là tạp chí?", parts: ["これ","は","本（ほん）ですか、雑誌（ざっし）ですか。"] }
         ]
       },
       {
         title: "Sở hữu (Trợ từ の)",
         formula: "N1 の N2",
         examples: [
-          { jp: "私（わたし）の 傘（かさ）", romaji: "Watashi no kasa", vn: "Cái ô của tôi" },
-          { jp: "この 傘（かさ）は 私（わたし）のです。", romaji: "Kono kasa wa watashi no desu.", vn: "Cái ô này là của tôi." }
+          { jp: "私（わたし）の 傘（かさ）", romaji: "Watashi no kasa", vn: "Cái ô của tôi", parts: ["私（わたし）の","傘（かさ）"] },
+          { jp: "この 傘（かさ）は 私（わたし）のです。", romaji: "Kono kasa wa watashi no desu.", vn: "Cái ô này là của tôi.", parts: ["この","傘（かさ）","は","私（わたし）のです。"] }
         ]
       }
     ],
@@ -202,22 +202,22 @@ export const lesson_1_5 = [
         title: "Chỉ nơi chốn (ここ / そこ / あそこ)",
         formula: "[ここ/そこ/あそこ] は N(nơi chốn) です。",
         examples: [
-          { jp: "ここ は 教室（きょうしつ）です。", romaji: "Koko wa kyoushitsu desu.", vn: "Chỗ này là phòng học." }
+          { jp: "ここ は 教室（きょうしつ）です。", romaji: "Koko wa kyoushitsu desu.", vn: "Chỗ này là phòng học.", parts: ["ここ","は","教室（きょうしつ）です。"] }
         ]
       },
       {
         title: "Vật/Người ở đâu",
         formula: "N は [Nơi chốn] です。",
         examples: [
-          { jp: "お手洗（てあら）い は あそこです。", romaji: "Otearai wa asoko desu.", vn: "Nhà vệ sinh ở đằng kia." },
-          { jp: "山田（やまだ）さんは 事務所（じむしょ）です。", romaji: "Yamada-san wa jimusho desu.", vn: "Anh Yamada đang ở văn phòng." }
+          { jp: "お手洗（てあら）い は あそこです。", romaji: "Otearai wa asoko desu.", vn: "Nhà vệ sinh ở đằng kia.", parts: ["お手洗（てあら）い","は","あそこです。"] },
+          { jp: "山田（やまだ）さんは 事務所（じむしょ）です。", romaji: "Yamada-san wa jimusho desu.", vn: "Anh Yamada đang ở văn phòng.", parts: ["山田（やまだ）さん","は","事務所（じむしょ）です。"] }
         ]
       },
       {
         title: "Hỏi địa điểm (どこ)",
         formula: "N は どこですか。",
         examples: [
-          { jp: "エレベーターは どこですか。", romaji: "Erebeetaa wa doko desu ka.", vn: "Thang máy ở đâu vậy?" }
+          { jp: "エレベーターは どこですか。", romaji: "Erebeetaa wa doko desu ka.", vn: "Thang máy ở đâu vậy?", parts: ["エレベーター","は","どこですか。"] }
         ]
       }
     ],
@@ -288,29 +288,29 @@ export const lesson_1_5 = [
         title: "Hỏi giờ",
         formula: "今（いま） 何時（なんじ）ですか。",
         examples: [
-          { jp: "今（いま）、８時（じ）半（はん）です。", romaji: "Ima, hachi-ji han desu.", vn: "Bây giờ là 8 giờ rưỡi." }
+          { jp: "今（いま）、８時（じ）半（はん）です。", romaji: "Ima, hachi-ji han desu.", vn: "Bây giờ là 8 giờ rưỡi.", parts: ["今（いま）、８時（じ）半（","は","ん）","で","す。"] }
         ]
       },
       {
         title: "Từ ~ Đến ~",
         formula: "N1 から N2 まで",
         examples: [
-          { jp: "９時（じ）から ５時（じ）まで 働（はたら）きます。", romaji: "Ku-ji kara go-ji made hatarakimasu.", vn: "Tôi làm việc từ 9 giờ đến 5 giờ." }
+          { jp: "９時（じ）から ５時（じ）まで 働（はたら）きます。", romaji: "Ku-ji kara go-ji made hatarakimasu.", vn: "Tôi làm việc từ 9 giờ đến 5 giờ.", parts: ["９時（じ）","から","５時（じ）","まで","働（はたら）きます。"] }
         ]
       },
       {
         title: "Làm gì lúc mấy giờ",
         formula: "Thời gian に V-ます",
         examples: [
-          { jp: "私（わたし）は ６時（じ）に 起（お）きます。", romaji: "Watashi wa roku-ji ni okimasu.", vn: "Tôi thức dậy lúc 6 giờ." }
+          { jp: "私（わたし）は ６時（じ）に 起（お）きます。", romaji: "Watashi wa roku-ji ni okimasu.", vn: "Tôi thức dậy lúc 6 giờ.", parts: ["私（わたし）","は","６時（じ）","に","起（お）きます。"] }
         ]
       },
       {
         title: "Các thì của động từ",
         formula: "ます (Hiện tại/Tương lai) / ません (Phủ định hiện tại) / ました (Quá khứ) / ませんでした (Phủ định quá khứ)",
         examples: [
-          { jp: "きのう 勉強（べんきょう）しました。", romaji: "Kinou benkyoushimashita.", vn: "Hôm qua tôi đã học." },
-          { jp: "きのう 勉強（べんきょう）しませんでした。", romaji: "Kinou benkyoushimasen deshita.", vn: "Hôm qua tôi đã không học." }
+          { jp: "きのう 勉強（べんきょう）しました。", romaji: "Kinou benkyoushimashita.", vn: "Hôm qua tôi đã học.", parts: ["きのう","勉強（べんきょう）しました。"] },
+          { jp: "きのう 勉強（べんきょう）しませんでした。", romaji: "Kinou benkyoushimasen deshita.", vn: "Hôm qua tôi đã không học.", parts: ["きのう","勉強（べんきょう）しませんでした。"] }
         ]
       }
     ],
@@ -373,23 +373,23 @@ export const lesson_1_5 = [
         title: "Đi/Đến/Về đâu (Trợ từ へ)",
         formula: "[Nơi chốn] へ 行（い）きます / 来（き）ます / 帰（かえ）ります",
         examples: [
-          { jp: "来週（らいしゅう） 日本（にほん）へ 行（い）きます。", romaji: "Raishuu Nihon e ikimasu.", vn: "Tuần sau tôi đi Nhật Bản." },
-          { jp: "どこへも 行（い）きません。", romaji: "Doko e mo ikimasen.", vn: "Tôi không đi đâu cả." }
+          { jp: "来週（らいしゅう） 日本（にほん）へ 行（い）きます。", romaji: "Raishuu Nihon e ikimasu.", vn: "Tuần sau tôi đi Nhật Bản.", parts: ["来週（らいしゅう）","日本（にほん）","へ","行（い）きます。"] },
+          { jp: "どこへも 行（い）きません。", romaji: "Doko e mo ikimasen.", vn: "Tôi không đi đâu cả.", parts: ["どこへ","も","行（い）きません。"] }
         ]
       },
       {
         title: "Bằng phương tiện gì (Trợ từ で)",
         formula: "[Phương tiện] で 行（い）きます",
         examples: [
-          { jp: "電車（でんしゃ）で 学校（がっこう）へ 行（い）きます。", romaji: "Densha de gakkou e ikimasu.", vn: "Tôi đi đến trường bằng tàu điện." },
-          { jp: "歩（ある）いて 帰（かえ）ります。", romaji: "Aruite kaerimasu.", vn: "Tôi đi bộ về." }
+          { jp: "電車（でんしゃ）で 学校（がっこう）へ 行（い）きます。", romaji: "Densha de gakkou e ikimasu.", vn: "Tôi đi đến trường bằng tàu điện.", parts: ["電車（でんしゃ）","で","学校（がっこう）","へ","行（い）きます。"] },
+          { jp: "歩（ある）いて 帰（かえ）ります。", romaji: "Aruite kaerimasu.", vn: "Tôi đi bộ về.", parts: ["歩（ある）いて","帰（かえ）ります。"] }
         ]
       },
       {
         title: "Cùng với ai (Trợ từ と)",
         formula: "[Người] と 行（い）きます",
         examples: [
-          { jp: "友達（ともだち）と 東京（とうきょう）へ 行（い）きます。", romaji: "Tomodachi to Toukyou e ikimasu.", vn: "Tôi đi Tokyo cùng bạn." }
+          { jp: "友達（ともだち）と 東京（とうきょう）へ 行（い）きます。", romaji: "Tomodachi to Toukyou e ikimasu.", vn: "Tôi đi Tokyo cùng bạn.", parts: ["友達（ともだち）","と","東京（とうきょう）","へ","行（い）きます。"] }
         ]
       }
     ],

@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { lessons } from '../data/lessons';
 import { CustomSelect } from '../components/ui/CustomSelect';
-import { FuriganaText } from '../components/ui/FuriganaText';
+import { InteractiveSentence } from '../components/ui/InteractiveSentence';
 
 export default function Conversation() {
   const conversationLessons = lessons.filter(l => l.conversation && l.conversation.length > 0);
@@ -14,9 +14,9 @@ export default function Conversation() {
   return (
     <div className="flex flex-col items-center w-full max-w-4xl mx-auto min-h-[70vh]">
       
-      {/* Control Panel - Minimalist */}
-      <div className="w-full flex justify-center mb-20 pb-6 border-b border-white/5">
-        <div className="relative w-full md:max-w-md">
+      {/* Control Panel */}
+      <div className="w-full flex flex-col md:flex-row justify-center items-center mb-16 pb-6 border-b border-white/5 gap-6">
+        <div className="relative w-full md:w-auto md:min-w-[300px]">
           <CustomSelect
             value={selectedLesson}
             options={conversationLessons.map(l => ({ value: l.id, label: l.title }))}
@@ -28,7 +28,7 @@ export default function Conversation() {
       </div>
 
       <motion.div 
-        className="w-full relative py-10" 
+        className="w-full relative py-4" 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -46,7 +46,7 @@ export default function Conversation() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1, duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] }}
                 >
-                  <div className={`relative max-w-[95%] md:max-w-[75%] bg-surface/30 backdrop-blur-sm border border-white/5 p-8 transition-all duration-500 hover:border-primary/20 hover:bg-surface/40 shadow-ambient ${isLeft ? 'text-left' : 'text-right'}`}>
+                  <div className={`relative max-w-[95%] md:max-w-[85%] bg-surface/30 backdrop-blur-sm border border-white/5 p-8 transition-all duration-500 hover:border-primary/20 hover:bg-surface/40 shadow-ambient ${isLeft ? 'text-left' : 'text-right'}`}>
                     
                     {/* Edge Accent */}
                     <div className={`absolute top-0 bottom-0 w-[2px] ${isLeft ? 'left-0 bg-primary/40' : 'right-0 bg-accent/40'} opacity-50 group-hover:opacity-100 transition-opacity duration-500`} />
@@ -55,15 +55,15 @@ export default function Conversation() {
                       {c.speaker}
                     </span>
                     
-                    <p className="text-2xl md:text-3xl font-serifjp text-foreground font-bold mb-3 tracking-wide leading-relaxed">
-                      <FuriganaText text={c.text_jp} />
-                    </p>
+                    <div className="text-2xl md:text-3xl font-serifjp text-foreground font-bold mb-3 tracking-wide leading-relaxed">
+                      <InteractiveSentence text={c.text_jp} isPracticeMode={false} />
+                    </div>
                     
-                    <p className="text-muted-foreground/60 font-mono text-[10px] md:text-xs tracking-[0.2em] uppercase mb-6">
+                    <p className={`text-muted-foreground/60 font-mono text-[10px] md:text-xs tracking-[0.2em] uppercase mb-6 transition-all duration-500 opacity-100`}>
                       {c.romaji}
                     </p>
                     
-                    <p className="text-foreground/80 text-sm md:text-base font-medium">
+                    <p className={`text-foreground/80 text-sm md:text-base font-medium transition-all duration-500 opacity-100`}>
                       {c.text_vn}
                     </p>
                   </div>

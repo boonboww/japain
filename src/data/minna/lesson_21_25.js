@@ -40,9 +40,9 @@ export const lesson_21_25 = [
         title: "Bày tỏ ý kiến (Tôi nghĩ là...)",
         formula: "Thể thông thường + と 思（おも）います",
         examples: [
-          { jp: "明日（あした）は 雨（あめ）が 降（ふ）る と 思（おも）います。", romaji: "Ashita wa ame ga furu to omoimasu.", vn: "Tôi nghĩ ngày mai trời sẽ mưa." },
-          { jp: "このレストランは おいしい と 思（おも）います。", romaji: "Kono resutoran wa oishii to omoimasu.", vn: "Tôi nghĩ nhà hàng này ngon." },
-          { jp: "田中（たなか）さんは 来（こ）ない と 思（おも）います。", romaji: "Tanaka-san wa konai to omoimasu.", vn: "Tôi nghĩ anh Tanaka sẽ không đến." }
+          { jp: "明日（あした）は 雨（あめ）が 降（ふ）る と 思（おも）います。", romaji: "Ashita wa ame ga furu to omoimasu.", vn: "Tôi nghĩ ngày mai trời sẽ mưa.", parts: ["明日（あした）","は","雨（あめ）","が","降（ふ）る","と","思（おも）います。"] },
+          { jp: "このレストランは おいしい と 思（おも）います。", romaji: "Kono resutoran wa oishii to omoimasu.", vn: "Tôi nghĩ nhà hàng này ngon.", parts: ["このレストラン","は","おいしい","と","思（おも）います。"] },
+          { jp: "田中（たなか）さんは 来（こ）ない と 思（おも）います。", romaji: "Tanaka-san wa konai to omoimasu.", vn: "Tôi nghĩ anh Tanaka sẽ không đến.", parts: ["田中（たなか）さん","は","来（こ）ない","と","思（おも）います。"] }
         ]
       },
       {
@@ -50,15 +50,15 @@ export const lesson_21_25 = [
         formula: "Thể thông thường + と 言（い）いました",
         examples: [
           { jp: "山田（やまだ）さんは 「明日（あした） 休（やす）みます」と 言（い）いました。", romaji: "Yamada-san wa 'Ashita yasumimasu' to iimashita.", vn: "Anh Yamada đã nói: 'Ngày mai tôi nghỉ'." },
-          { jp: "山田（やまだ）さんは 明日（あした） 休（やす）む と 言（い）いました。", romaji: "Yamada-san wa ashita yasumu to iimashita.", vn: "Anh Yamada đã nói rằng ngày mai anh ấy nghỉ (trích dẫn gián tiếp)." }
+          { jp: "山田（やまだ）さんは 明日（あした） 休（やす）む と 言（い）いました。", romaji: "Yamada-san wa ashita yasumu to iimashita.", vn: "Anh Yamada đã nói rằng ngày mai anh ấy nghỉ (trích dẫn gián tiếp).", parts: ["山田（やまだ）さん","は","明日（あした）","休（やす）む","と","言（い）いました。"] }
         ]
       },
       {
         title: "Sự đồng tình (...đúng vậy nhỉ)",
         formula: "Câu + でしょう？ (Lên giọng)",
         examples: [
-          { jp: "ハノイは 交通（こうつう）が 不便（ふべん）でしょう？", romaji: "Hanoi wa koutsuu ga fuben deshou?", vn: "Hà Nội giao thông bất tiện đúng không?" },
-          { jp: "ええ、そうですね。", romaji: "Ee, sou desu ne.", vn: "Vâng, đúng vậy." }
+          { jp: "ハノイは 交通（こうつう）が 不便（ふべん）でしょう？", romaji: "Hanoi wa koutsuu ga fuben deshou?", vn: "Hà Nội giao thông bất tiện đúng không?", parts: ["ハノイ","は","交通（こうつう）","が","不便（ふべん）でしょう？"] },
+          { jp: "ええ、そうですね。", romaji: "Ee, sou desu ne.", vn: "Vâng, đúng vậy.", parts: ["ええ、そう","で","すね。"] }
         ]
       }
     ],
@@ -102,16 +102,16 @@ export const lesson_21_25 = [
         title: "Mệnh đề bổ nghĩa cho Danh từ",
         formula: "[Câu ở Thể thông thường] + N",
         examples: [
-          { jp: "私（わたし）が 買（か）った パソコン", romaji: "Watashi ga katta pasokon", vn: "Cái máy tính [mà tôi đã mua]." },
-          { jp: "日本（にほん）で 作（つく）った カメラ", romaji: "Nihon de tsukutta kamera", vn: "Cái máy ảnh [được sản xuất ở Nhật]." },
-          { jp: "あの 眼鏡（めがね）を かけている 人（ひと） は だれですか。", romaji: "Ano megane o kakete iru hito wa dare desu ka.", vn: "Cái người [mà đang đeo kính] kia là ai vậy?" }
+          { jp: "私（わたし）が 買（か）った パソコン", romaji: "Watashi ga katta pasokon", vn: "Cái máy tính [mà tôi đã mua].", parts: ["私（わたし）","が","買（か）った","パソコン"] },
+          { jp: "日本（にほん）で 作（つく）った カメラ", romaji: "Nihon de tsukutta kamera", vn: "Cái máy ảnh [được sản xuất ở Nhật].", parts: ["日本（にほん）","で","作（つく）った","カメラ"] },
+          { jp: "あの 眼鏡（めがね）を かけている 人（ひと） は だれですか。", romaji: "Ano megane o kakete iru hito wa dare desu ka.", vn: "Cái người [mà đang đeo kính] kia là ai vậy?", parts: ["あの","眼鏡（めがね）","を","かけている","人（ひと）","は","だれですか。"] }
         ]
       },
       {
         title: "Trợ từ が trong mệnh đề phụ",
         formula: "Trong mệnh đề bổ nghĩa, chủ ngữ dùng が thay vì は",
         examples: [
-          { jp: "これ は [私（わたし） が 撮（と）った] 写真（しゃしん）です。", romaji: "Kore wa [watashi ga totta] shashin desu.", vn: "Đây là bức ảnh [mà tôi chụp]." }
+          { jp: "これ は [私（わたし） が 撮（と）った] 写真（しゃしん）です。", romaji: "Kore wa [watashi ga totta] shashin desu.", vn: "Đây là bức ảnh [mà tôi chụp].", parts: ["これ","は","[私（わたし）","が","撮（と）った]","写真（しゃしん）です。"] }
         ]
       }
     ],
@@ -160,18 +160,18 @@ export const lesson_21_25 = [
         title: "Khi... (～とき)",
         formula: "[Thể thông thường / Aい / Aな / Nの] + とき、...",
         examples: [
-          { jp: "図書館（としょかん）で 本（ほん）を 借（か）りる とき、 カードが 要（い）ります。", romaji: "Toshokan de hon o kariru toki, kaado ga irimasu.", vn: "KHI mượn sách ở thư viện, cần có thẻ." },
-          { jp: "時間（じかん）が ない とき、 朝（あさ）ごはんを 食（た）べません。", romaji: "Jikan ga nai toki, asagohan o tabemasen.", vn: "KHI không có thời gian, tôi không ăn sáng." },
-          { jp: "暇（ひま）な とき、 テレビを 見（み）ます。", romaji: "Hima na toki, terebi o mimasu.", vn: "KHI rảnh rỗi, tôi xem tivi." },
-          { jp: "子供（こども）の とき、 よく 川（かわ）で 泳（およ）ぎました。", romaji: "Kodomo no toki, yoku kawa de oyogimashita.", vn: "KHI còn là trẻ con, tôi hay bơi ở sông." }
+          { jp: "図書館（としょかん）で 本（ほん）を 借（か）りる とき、 カードが 要（い）ります。", romaji: "Toshokan de hon o kariru toki, kaado ga irimasu.", vn: "KHI mượn sách ở thư viện, cần có thẻ.", parts: ["図書館（としょかん）","で","本（ほん）","を","借（か）りる","とき、","カード","が","要（い）ります。"] },
+          { jp: "時間（じかん）が ない とき、 朝（あさ）ごはんを 食（た）べません。", romaji: "Jikan ga nai toki, asagohan o tabemasen.", vn: "KHI không có thời gian, tôi không ăn sáng.", parts: ["時間（じかん）","が","ない","とき、","朝（あさ）ごはん","を","食（た）べません。"] },
+          { jp: "暇（ひま）な とき、 テレビを 見（み）ます。", romaji: "Hima na toki, terebi o mimasu.", vn: "KHI rảnh rỗi, tôi xem tivi.", parts: ["暇（ひま）な","とき、","テレビ","を","見（み）ます。"] },
+          { jp: "子供（こども）の とき、 よく 川（かわ）で 泳（およ）ぎました。", romaji: "Kodomo no toki, yoku kawa de oyogimashita.", vn: "KHI còn là trẻ con, tôi hay bơi ở sông.", parts: ["子供（こども）の","とき、","よく","川（かわ）","で","泳（およ）ぎました。"] }
         ]
       },
       {
         title: "Hễ mà... thì... (～と)",
         formula: "V-る + と、...",
         examples: [
-          { jp: "この ボタンを 押（お）す と、 お釣（つ）りが 出（で）ます。", romaji: "Kono botan o osu to, otsuri ga demasu.", vn: "Hễ bấm nút này, tiền thừa sẽ chạy ra." },
-          { jp: "右（みぎ）へ 曲（まが）る と、 郵便局（ゆうびんきょく）が あります。", romaji: "Migi e magaru to, yuubinkyoku ga arimasu.", vn: "Hễ rẽ phải là sẽ thấy bưu điện." }
+          { jp: "この ボタンを 押（お）す と、 お釣（つ）りが 出（で）ます。", romaji: "Kono botan o osu to, otsuri ga demasu.", vn: "Hễ bấm nút này, tiền thừa sẽ chạy ra.", parts: ["この","ボタン","を","押（お）す","と、","お釣（つ）り","が","出（で）ます。"] },
+          { jp: "右（みぎ）へ 曲（まが）る と、 郵便局（ゆうびんきょく）が あります。", romaji: "Migi e magaru to, yuubinkyoku ga arimasu.", vn: "Hễ rẽ phải là sẽ thấy bưu điện.", parts: ["右（みぎ）","へ","曲（まが）る","と、","郵便局（ゆうびんきょく）","が","あります。"] }
         ]
       }
     ],
@@ -209,28 +209,28 @@ export const lesson_21_25 = [
         title: "Ai đó cho mình cái gì",
         formula: "[Người khác] は/が 私（わたし）に N を くれます。",
         examples: [
-          { jp: "山田（やまだ）さんは 私（わたし）に 花（はな）を くれました。", romaji: "Yamada-san wa watashi ni hana o kuremashita.", vn: "Anh Yamada đã tặng hoa cho tôi." }
+          { jp: "山田（やまだ）さんは 私（わたし）に 花（はな）を くれました。", romaji: "Yamada-san wa watashi ni hana o kuremashita.", vn: "Anh Yamada đã tặng hoa cho tôi.", parts: ["山田（やまだ）さん","は","私（わたし）","に","花（はな）","を","くれました。"] }
         ]
       },
       {
         title: "Làm việc gì cho ai (V-て あげます)",
         formula: "私（わたし）は [Người khác] に V-て あげます",
         examples: [
-          { jp: "私（わたし）は 山田（やまだ）さんに 本（ほん）を 貸（か）して あげました。", romaji: "Watashi wa Yamada-san ni hon o kashite agemashita.", vn: "Tôi đã cho anh Yamada mượn sách." }
+          { jp: "私（わたし）は 山田（やまだ）さんに 本（ほん）を 貸（か）して あげました。", romaji: "Watashi wa Yamada-san ni hon o kashite agemashita.", vn: "Tôi đã cho anh Yamada mượn sách.", parts: ["私（わたし）","は","山田（やまだ）さん","に","本（ほん）","を","貸（か）して","あげました。"] }
         ]
       },
       {
         title: "Nhờ/Nhận ai đó làm gì cho mình (V-て もらいます)",
         formula: "私（わたし）は [Người khác] に V-て もらいます",
         examples: [
-          { jp: "私（わたし）は 佐藤（さとう）さんに 漢字（かんじ）を 教（おし）えて もらいました。", romaji: "Watashi wa Satou-san ni kanji o oshiete moraimashita.", vn: "Tôi đã được chị Sato dạy chữ Hán." }
+          { jp: "私（わたし）は 佐藤（さとう）さんに 漢字（かんじ）を 教（おし）えて もらいました。", romaji: "Watashi wa Satou-san ni kanji o oshiete moraimashita.", vn: "Tôi đã được chị Sato dạy chữ Hán.", parts: ["私（わたし）","は","佐藤（さとう）さん","に","漢字（かんじ）","を","教（おし）えて","もらいました。"] }
         ]
       },
       {
         title: "Ai đó làm việc gì cho mình (V-て くれます)",
         formula: "[Người khác] は/が 私（わたし）に V-て くれます",
         examples: [
-          { jp: "母（はは）が セーターを 送（おく）って くれました。", romaji: "Haha ga seetaa o okutte kuremashita.", vn: "Mẹ đã gửi áo len cho tôi." }
+          { jp: "母（はは）が セーターを 送（おく）って くれました。", romaji: "Haha ga seetaa o okutte kuremashita.", vn: "Mẹ đã gửi áo len cho tôi.", parts: ["母（はは）","が","セーター","を","送（おく）って","くれました。"] }
         ]
       }
     ],
@@ -269,24 +269,24 @@ export const lesson_21_25 = [
         title: "Nếu (Giả định V-たら)",
         formula: "Thể TA + ら",
         examples: [
-          { jp: "お金（かね）が あったら、 パソコンを 買（か）いたいです。", romaji: "Okane ga attara, pasokon o kaitai desu.", vn: "Nếu có tiền, tôi muốn mua máy tính." },
-          { jp: "雨（あめ）が 降（ふ）ったら、 行（い）きません。", romaji: "Ame ga futtara, ikimasen.", vn: "Nếu trời mưa, tôi sẽ không đi." }
+          { jp: "お金（かね）が あったら、 パソコンを 買（か）いたいです。", romaji: "Okane ga attara, pasokon o kaitai desu.", vn: "Nếu có tiền, tôi muốn mua máy tính.", parts: ["お金（かね）","が","あったら、","パソコン","を","買（か）いたいです。"] },
+          { jp: "雨（あめ）が 降（ふ）ったら、 行（い）きません。", romaji: "Ame ga futtara, ikimasen.", vn: "Nếu trời mưa, tôi sẽ không đi.", parts: ["雨（あめ）","が","降（ふ）ったら、","行（い）きません。"] }
         ]
       },
       {
         title: "Sau khi (Hoàn thành xong 1 việc V-たら)",
         formula: "Thể TA + ら",
         examples: [
-          { jp: "１０時（じ）に なったら、 出（で）かけましょう。", romaji: "Juu-ji ni nattara, dekakemashou.", vn: "Khi nào (sau khi) đến 10 giờ thì chúng ta xuất phát nhé." },
-          { jp: "駅（えき）に 着（つ）いたら、 電話（でんわ）を します。", romaji: "Eki ni tsuitara, denwa o shimasu.", vn: "Sau khi đến ga tôi sẽ gọi điện." }
+          { jp: "１０時（じ）に なったら、 出（で）かけましょう。", romaji: "Juu-ji ni nattara, dekakemashou.", vn: "Khi nào (sau khi) đến 10 giờ thì chúng ta xuất phát nhé.", parts: ["１０時（じ）","に","なったら、","出（で）かけましょう。"] },
+          { jp: "駅（えき）に 着（つ）いたら、 電話（でんわ）を します。", romaji: "Eki ni tsuitara, denwa o shimasu.", vn: "Sau khi đến ga tôi sẽ gọi điện.", parts: ["駅（えき）","に","着（つ）いたら、","電話（でんわ）","を","します。"] }
         ]
       },
       {
         title: "Cho dù (Nhượng bộ V-ても)",
         formula: "V-て + も / A(bỏ い)-くても / A(bỏ な)-でも / N-でも",
         examples: [
-          { jp: "雨（あめ）が 降（ふ）っても、 行（い）きます。", romaji: "Ame ga futtemo, ikimasu.", vn: "Cho dù trời mưa tôi vẫn đi." },
-          { jp: "安（やす）くても、 このパソコンは 買（か）いません。", romaji: "Yasukutemo, kono pasokon wa kaimasen.", vn: "Cho dù có rẻ, tôi cũng không mua máy tính này." }
+          { jp: "雨（あめ）が 降（ふ）っても、 行（い）きます。", romaji: "Ame ga futtemo, ikimasu.", vn: "Cho dù trời mưa tôi vẫn đi.", parts: ["雨（あめ）","が","降（ふ）っても、","行（い）きます。"] },
+          { jp: "安（やす）くても、 このパソコンは 買（か）いません。", romaji: "Yasukutemo, kono pasokon wa kaimasen.", vn: "Cho dù có rẻ, tôi cũng không mua máy tính này.", parts: ["安（やす）くても、","このパソコン","は","買（か）いません。"] }
         ]
       }
     ],

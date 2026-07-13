@@ -57,22 +57,22 @@ export const lesson_11_15 = [
         title: "Đếm số lượng",
         formula: "Danh từ を [Số lượng] V-ます",
         examples: [
-          { jp: "みかんを ４つ（よっつ） 買（か）いました。", romaji: "Mikan o yottsu kaimashita.", vn: "Tôi đã mua 4 quả quýt." },
-          { jp: "切手（きって）を ２枚（にまい） 買（か）いました。", romaji: "Kitte o ni-mai kaimashita.", vn: "Tôi đã mua 2 cái tem." }
+          { jp: "みかんを ４つ（よっつ） 買（か）いました。", romaji: "Mikan o yottsu kaimashita.", vn: "Tôi đã mua 4 quả quýt.", parts: ["みかん","を","４つ（よっつ）","買（か）いました。"] },
+          { jp: "切手（きって）を ２枚（にまい） 買（か）いました。", romaji: "Kitte o ni-mai kaimashita.", vn: "Tôi đã mua 2 cái tem.", parts: ["切手（きって）","を","２枚（にまい）","買（か）いました。"] }
         ]
       },
       {
         title: "Tần suất (Mấy lần một khoảng thời gian)",
         formula: "[Khoảng thời gian] に [Số lần] V-ます",
         examples: [
-          { jp: "１か月（いっかげつ）に ２回（にかい） 映画（えいが）を 見（み）ます。", romaji: "Ikkagetsu ni ni-kai eiga o mimasu.", vn: "Một tháng tôi xem phim 2 lần." }
+          { jp: "１か月（いっかげつ）に ２回（にかい） 映画（えいが）を 見（み）ます。", romaji: "Ikkagetsu ni ni-kai eiga o mimasu.", vn: "Một tháng tôi xem phim 2 lần.", parts: ["１か月（いっかげつ）","に","２回（にかい）","映画（えいが）","を","見（み）ます。"] }
         ]
       },
       {
         title: "Khoảng thời gian (Mất bao lâu)",
         formula: "[Khoảng thời gian] かかります",
         examples: [
-          { jp: "日本（にほん）から ベトナムまで 飛行機（ひこうき）で ５時間（ごじかん）かかります。", romaji: "Nihon kara Betonamu made hikouki de go-jikan kakarimasu.", vn: "Từ Nhật Bản đến VN bằng máy bay mất 5 tiếng." }
+          { jp: "日本（にほん）から ベトナムまで 飛行機（ひこうき）で ５時間（ごじかん）かかります。", romaji: "Nihon kara Betonamu made hikouki de go-jikan kakarimasu.", vn: "Từ Nhật Bản đến VN bằng máy bay mất 5 tiếng.", parts: ["日本（にほん）","から","ベトナム","まで","飛行機（ひこうき）","で","５時間（ごじかん）かかります。"] }
         ]
       }
     ],
@@ -135,31 +135,31 @@ export const lesson_11_15 = [
         title: "Quá khứ của Danh từ và Tính từ",
         formula: "N/Aな: ~でした / ~じゃありませんでした. Aい: ~かったです / ~くなかったです",
         examples: [
-          { jp: "きのうは 雨（あめ）でした。", romaji: "Kinou wa ame deshita.", vn: "Hôm qua trời mưa." },
-          { jp: "きのうは 寒（さむ）かったです。", romaji: "Kinou wa samukatta desu.", vn: "Hôm qua trời lạnh." }
+          { jp: "きのうは 雨（あめ）でした。", romaji: "Kinou wa ame deshita.", vn: "Hôm qua trời mưa.", parts: ["きのう","は","雨（あめ）でした。"] },
+          { jp: "きのうは 寒（さむ）かったです。", romaji: "Kinou wa samukatta desu.", vn: "Hôm qua trời lạnh.", parts: ["きのう","は","寒（さむ）かったです。"] }
         ]
       },
       {
         title: "So sánh hơn (N1 thì hơn N2)",
         formula: "N1 は N2 より [Tính từ] です。",
         examples: [
-          { jp: "飛行機（ひこうき） は 車（くるま）より 速（はや）いです。", romaji: "Hikouki wa kuruma yori hayai desu.", vn: "Máy bay thì nhanh hơn ô tô." }
+          { jp: "飛行機（ひこうき） は 車（くるま）より 速（はや）いです。", romaji: "Hikouki wa kuruma yori hayai desu.", vn: "Máy bay thì nhanh hơn ô tô.", parts: ["飛行機（ひこうき）","は","車（くるま）より","速（はや）いです。"] }
         ]
       },
       {
         title: "So sánh giữa 2 vật",
         formula: "N1 と N2 と どちらが [Tính từ] ですか。",
         examples: [
-          { jp: "サッカー と テニス と どちらが 面白（おもしろ）いですか。", romaji: "Sakkaa to tenisu to dochira ga omoshiroi desu ka.", vn: "Bóng đá và tennis, cái nào thú vị hơn?" },
-          { jp: "サッカーの ほうが 面白（おもしろ）いです。", romaji: "Sakkaa no hou ga omoshiroi desu.", vn: "Bóng đá thú vị hơn." }
+          { jp: "サッカー と テニス と どちらが 面白（おもしろ）いですか。", romaji: "Sakkaa to tenisu to dochira ga omoshiroi desu ka.", vn: "Bóng đá và tennis, cái nào thú vị hơn?", parts: ["サッカー","と","テニス","と","どちら","が","面白（おもしろ）いですか。"] },
+          { jp: "サッカーの ほうが 面白（おもしろ）いです。", romaji: "Sakkaa no hou ga omoshiroi desu.", vn: "Bóng đá thú vị hơn.", parts: ["サッカーの","ほう","が","面白（おもしろ）いです。"] }
         ]
       },
       {
         title: "So sánh nhất (Trong ~ thì ... nhất)",
         formula: "N(tập hợp) で [Từ để hỏi] が いちばん [Tính từ] ですか。",
         examples: [
-          { jp: "日本（にほん）で どこ が いちばん きれいですか。", romaji: "Nihon de doko ga ichiban kirei desu ka.", vn: "Ở Nhật Bản, chỗ nào là đẹp nhất?" },
-          { jp: "京都（きょうと） が いちばん きれいです。", romaji: "Kyouto ga ichiban kirei desu.", vn: "Kyoto là đẹp nhất." }
+          { jp: "日本（にほん）で どこ が いちばん きれいですか。", romaji: "Nihon de doko ga ichiban kirei desu ka.", vn: "Ở Nhật Bản, chỗ nào là đẹp nhất?", parts: ["日本（にほん）","で","どこ","が","いちばん","きれいですか。"] },
+          { jp: "京都（きょうと） が いちばん きれいです。", romaji: "Kyouto ga ichiban kirei desu.", vn: "Kyoto là đẹp nhất.", parts: ["京都（きょうと）","が","いちばん","きれいです。"] }
         ]
       }
     ],
@@ -213,23 +213,23 @@ export const lesson_11_15 = [
         title: "Muốn có cái gì (N が ほしい)",
         formula: "N が ほしいです",
         examples: [
-          { jp: "私（わたし）は 新（あたら）しいパソコン が ほしいです。", romaji: "Watashi wa atarashii pasokon ga hoshii desu.", vn: "Tôi muốn có một cái máy tính mới." }
+          { jp: "私（わたし）は 新（あたら）しいパソコン が ほしいです。", romaji: "Watashi wa atarashii pasokon ga hoshii desu.", vn: "Tôi muốn có một cái máy tính mới.", parts: ["私（わたし）","は","新（あたら）しいパソコン","が","ほしいです。"] }
         ]
       },
       {
         title: "Muốn làm hành động gì (V-たい)",
         formula: "V(bỏ ます) + たいです",
         examples: [
-          { jp: "私（わたし）は 日本（にほん）へ 行（い）きたいです。", romaji: "Watashi wa Nihon e ikitai desu.", vn: "Tôi muốn đi Nhật Bản." },
-          { jp: "何（なに）も 食（た）べたくないです。", romaji: "Nani mo tabetakunai desu.", vn: "Tôi không muốn ăn gì cả." }
+          { jp: "私（わたし）は 日本（にほん）へ 行（い）きたいです。", romaji: "Watashi wa Nihon e ikitai desu.", vn: "Tôi muốn đi Nhật Bản.", parts: ["私（わたし）","は","日本（にほん）","へ","行（い）きたいです。"] },
+          { jp: "何（なに）も 食（た）べたくないです。", romaji: "Nani mo tabetakunai desu.", vn: "Tôi không muốn ăn gì cả.", parts: ["何（なに）","も","食（た）べたくないです。"] }
         ]
       },
       {
         title: "Đi đến đâu để làm gì",
         formula: "[Nơi chốn] へ [Danh từ / V(bỏ ます)] に 行（い）きます",
         examples: [
-          { jp: "デパートへ 買（か）い物（もの） に 行（い）きます。", romaji: "Depaato e kaimono ni ikimasu.", vn: "Tôi đi bách hóa để mua sắm." },
-          { jp: "日本（にほん）へ 美術（びじゅつ）を 勉強（べんきょう）し に 来（き）ました。", romaji: "Nihon e bijutsu o benkyoushi ni kimashita.", vn: "Tôi đã đến Nhật để học mỹ thuật." }
+          { jp: "デパートへ 買（か）い物（もの） に 行（い）きます。", romaji: "Depaato e kaimono ni ikimasu.", vn: "Tôi đi bách hóa để mua sắm.", parts: ["デパート","へ","買（か）い物（もの）","に","行（い）きます。"] },
+          { jp: "日本（にほん）へ 美術（びじゅつ）を 勉強（べんきょう）し に 来（き）ました。", romaji: "Nihon e bijutsu o benkyoushi ni kimashita.", vn: "Tôi đã đến Nhật để học mỹ thuật.", parts: ["日本（にほん）","へ","美術（びじゅつ）","を","勉強（べんきょう）し","に","来（き）ました。"] }
         ]
       }
     ],
@@ -294,33 +294,33 @@ export const lesson_11_15 = [
         title: "Thể TE (V-て)",
         formula: "Động từ chuyển sang thể て",
         examples: [
-          { jp: "書（か）きます → 書（か）いて", romaji: "kakimasu -> kaite", vn: "Nhóm 1: き→いて" },
-          { jp: "飲（の）みます → 飲（の）んで", romaji: "nomimasu -> nonde", vn: "Nhóm 1: み→んで" },
-          { jp: "食（た）べます → 食（た）べて", romaji: "tabemasu -> tabete", vn: "Nhóm 2: Bỏ ます thêm て" },
-          { jp: "します → して", romaji: "shimasu -> shite", vn: "Nhóm 3: します → して, 来ます → 来て" }
+          { jp: "書（か）きます → 書（か）いて", romaji: "kakimasu -> kaite", vn: "Nhóm 1: き→いて", parts: ["書（か）きます","→","書（か）いて"] },
+          { jp: "飲（の）みます → 飲（の）んで", romaji: "nomimasu -> nonde", vn: "Nhóm 1: み→んで", parts: ["飲（の）みます","→","飲（の）ん","で"] },
+          { jp: "食（た）べます → 食（た）べて", romaji: "tabemasu -> tabete", vn: "Nhóm 2: Bỏ ます thêm て", parts: ["食（た）べます","→","食（た）べて"] },
+          { jp: "します → して", romaji: "shimasu -> shite", vn: "Nhóm 3: します → して, 来ます → 来て", parts: ["します","→","して"] }
         ]
       },
       {
         title: "Hãy làm gì đó (V-てください)",
         formula: "V-て + ください",
         examples: [
-          { jp: "ちょっと 待（ま）って ください。", romaji: "Chotto matte kudasai.", vn: "Xin hãy đợi một chút." },
-          { jp: "名前（なまえ）を 書（か）いて ください。", romaji: "Namae o kaite kudasai.", vn: "Xin hãy viết tên." }
+          { jp: "ちょっと 待（ま）って ください。", romaji: "Chotto matte kudasai.", vn: "Xin hãy đợi một chút.", parts: ["ちょっ","と","待（ま）って","ください。"] },
+          { jp: "名前（なまえ）を 書（か）いて ください。", romaji: "Namae o kaite kudasai.", vn: "Xin hãy viết tên.", parts: ["名前（なまえ）","を","書（か）いて","ください。"] }
         ]
       },
       {
         title: "Đang làm gì đó (Hiện tại tiếp diễn V-ています)",
         formula: "V-て + います",
         examples: [
-          { jp: "今（いま） 雨（あめ）が 降（ふ）っています。", romaji: "Ima ame ga futte imasu.", vn: "Bây giờ trời đang mưa." },
-          { jp: "山田（やまだ）さんは 今（いま） 電話（でんわ）を かけています。", romaji: "Yamada-san wa ima denwa o kakete imasu.", vn: "Anh Yamada bây giờ đang gọi điện thoại." }
+          { jp: "今（いま） 雨（あめ）が 降（ふ）っています。", romaji: "Ima ame ga futte imasu.", vn: "Bây giờ trời đang mưa.", parts: ["今（いま）","雨（あめ）","が","降（ふ）っています。"] },
+          { jp: "山田（やまだ）さんは 今（いま） 電話（でんわ）を かけています。", romaji: "Yamada-san wa ima denwa o kakete imasu.", vn: "Anh Yamada bây giờ đang gọi điện thoại.", parts: ["山田（やまだ）さん","は","今（いま）","電話（でんわ）","を","かけています。"] }
         ]
       },
       {
         title: "Đề nghị làm giúp (Tôi làm ~ nhé)",
         formula: "V-ましょうか",
         examples: [
-          { jp: "窓（まど）を 閉（し）めましょうか。", romaji: "Mado o shimemashou ka.", vn: "Tôi đóng cửa sổ giúp bạn nhé?" }
+          { jp: "窓（まど）を 閉（し）めましょうか。", romaji: "Mado o shimemashou ka.", vn: "Tôi đóng cửa sổ giúp bạn nhé?", parts: ["窓（まど）","を","閉（し）めましょうか。"] }
         ]
       }
     ],
@@ -364,24 +364,24 @@ export const lesson_11_15 = [
         title: "Xin phép (Làm ~ có được không?)",
         formula: "V-て も いいですか。",
         examples: [
-          { jp: "写真（しゃしん）を 撮（と）っても いいですか。", romaji: "Shashin o totte mo ii desu ka.", vn: "Tôi chụp ảnh có được không?" },
-          { jp: "はい、いいですよ。/ ええ、どうぞ。", romaji: "Hai, ii desu yo. / Ee, douzo.", vn: "Vâng, được đấy. / Vâng, xin mời." }
+          { jp: "写真（しゃしん）を 撮（と）っても いいですか。", romaji: "Shashin o totte mo ii desu ka.", vn: "Tôi chụp ảnh có được không?", parts: ["写真（しゃしん）","を","撮（と）って","も","いいですか。"] },
+          { jp: "はい、いいですよ。/ ええ、どうぞ。", romaji: "Hai, ii desu yo. / Ee, douzo.", vn: "Vâng, được đấy. / Vâng, xin mời.", parts: ["はい、いいですよ。/","ええ、どうぞ。"] }
         ]
       },
       {
         title: "Cấm đoán (Không được phép làm ~)",
         formula: "V-て は いけません。",
         examples: [
-          { jp: "ここで タバコを 吸（す）っては いけません。", romaji: "Koko de tabako o sutte wa ikemasen.", vn: "Không được hút thuốc ở đây." }
+          { jp: "ここで タバコを 吸（す）っては いけません。", romaji: "Koko de tabako o sutte wa ikemasen.", vn: "Không được hút thuốc ở đây.", parts: ["ここ","で","タバコ","を","吸（す）って","は","いけません。"] }
         ]
       },
       {
         title: "Trạng thái, nghề nghiệp, thói quen (V-ています)",
         formula: "V-ています",
         examples: [
-          { jp: "私（わたし）は 大阪（おおさか）に 住（す）んでいます。", romaji: "Watashi wa Oosaka ni sunde imasu.", vn: "Tôi đang sống ở Osaka." },
-          { jp: "山田（やまだ）さんは 結婚（けっこん）しています。", romaji: "Yamada-san wa kekkonshite imasu.", vn: "Anh Yamada đã kết hôn." },
-          { jp: "IMCは コンピューターのソフトを 作（つく）っています。", romaji: "IMC wa konpyuutaa no sofuto o tsukutte imasu.", vn: "Công ty IMC sản xuất phần mềm máy tính (Nghề nghiệp/Trạng thái của cty)." }
+          { jp: "私（わたし）は 大阪（おおさか）に 住（す）んでいます。", romaji: "Watashi wa Oosaka ni sunde imasu.", vn: "Tôi đang sống ở Osaka.", parts: ["私（わたし）","は","大阪（おおさか）","に","住（す）んでいます。"] },
+          { jp: "山田（やまだ）さんは 結婚（けっこん）しています。", romaji: "Yamada-san wa kekkonshite imasu.", vn: "Anh Yamada đã kết hôn.", parts: ["山田（やまだ）さん","は","結婚（けっこん）しています。"] },
+          { jp: "IMCは コンピューターのソフトを 作（つく）っています。", romaji: "IMC wa konpyuutaa no sofuto o tsukutte imasu.", vn: "Công ty IMC sản xuất phần mềm máy tính (Nghề nghiệp/Trạng thái của cty).", parts: ["IMC","は","コンピューターのソフト","を","作（つく）っています。"] }
         ]
       }
     ],
